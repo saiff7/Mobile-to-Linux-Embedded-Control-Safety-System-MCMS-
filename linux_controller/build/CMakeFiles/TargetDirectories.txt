@@ -1,3 +1,0 @@
-/Users/mohammedabdulsaif/MCMS/linux_controller/build/CMakeFiles/mcms.dir
-/Users/mohammedabdulsaif/MCMS/linux_controller/build/CMakeFiles/edit_cache.dir
-/Users/mohammedabdulsaif/MCMS/linux_controller/build/CMakeFiles/rebuild_cache.dir
