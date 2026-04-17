@@ -1,0 +1,1344 @@
+[2026-04-11 12:53:35] [INFO ] === MCMS Logger Initialized ===
+[2026-04-11 12:53:35] [INFO ] === MCMS Controller Starting ===
+[2026-04-11 12:53:35] [INFO ] Mobile-to-Linux Embedded Control & Safety System
+[2026-04-11 12:53:35] [INFO ] TCP Server listening on port 9000
+[2026-04-11 12:53:35] [INFO ] System ready. Waiting for phone...
+[2026-04-11 12:53:35] [INFO ] Press Ctrl+C to stop.
+[2026-04-11 12:53:35] [INFO ] Waiting for phone connection...
+[2026-04-11 12:54:54] [WARN ] Shutdown signal received (2)
+[2026-04-11 12:54:54] [INFO ] TCP Server stopped.
+[2026-04-11 12:54:54] [INFO ] === MCMS Controller Shutdown Complete ===
+[2026-04-11 12:54:54] [INFO ] TCP Server stopped.
+[2026-04-11 12:54:54] [INFO ] === MCMS Logger Shutdown ===
+[2026-04-11 12:56:57] [INFO ] === MCMS Logger Initialized ===
+[2026-04-11 12:56:57] [INFO ] Control Engine initialized. State: IDLE
+[2026-04-11 12:56:57] [INFO ] === MCMS Controller Starting ===
+[2026-04-11 12:56:57] [INFO ] Mobile-to-Linux Embedded Control & Safety System v2.0
+[2026-04-11 12:56:57] [INFO ] TCP Server listening on port 9000
+[2026-04-11 12:56:57] [INFO ] System ready on port 9000. Waiting for phone...
+[2026-04-11 12:56:57] [INFO ] Press Ctrl+C to stop.
+[2026-04-11 12:56:57] [INFO ] Waiting for phone connection...
+[2026-04-11 12:57:35] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 12:57:35] [INFO ] acc=(0.10,9.80,0.20) gyro=(0.00,0.00,0.10) sound=0.10 | totalAcc=9.80
+[2026-04-11 12:57:35] [INFO ] System nominal. STATE: IDLE → MONITORING  [acc=9.80 gyro=0.10 sound=0.10]
+[2026-04-11 12:57:35] [INFO ] System State: MONITORING
+[2026-04-11 12:57:35] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 12:57:35] [INFO ] Waiting for phone connection...
+[2026-04-11 12:57:35] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 12:57:35] [INFO ] acc=(10.00,15.00,5.00) gyro=(0.00,0.00,0.10) sound=0.10 | totalAcc=18.71
+[2026-04-11 12:57:35] [ALERT] ⚠️  ALERT triggered. STATE: MONITORING → ALERT  [acc=18.71 gyro=0.10 sound=0.10]
+[2026-04-11 12:57:35] [INFO ] System State: ALERT
+[2026-04-11 12:57:35] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 12:57:35] [INFO ] Waiting for phone connection...
+[2026-04-11 12:57:35] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 12:57:35] [INFO ] acc=(20.00,18.00,10.00) gyro=(0.00,0.00,0.10) sound=0.10 | totalAcc=28.71
+[2026-04-11 12:57:35] [ALERT] 🚨 EMERGENCY STOP! STATE: ALERT → EMERGENCY_STOP  [acc=28.71 gyro=0.10 sound=0.10]
+[2026-04-11 12:57:35] [ALERT] All virtual motors HALTED.
+[2026-04-11 12:57:35] [INFO ] System State: EMERGENCY_STOP
+[2026-04-11 12:57:35] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 12:57:35] [INFO ] Waiting for phone connection...
+[2026-04-11 13:00:38] [WARN ] Shutdown signal received (2)
+[2026-04-11 13:00:38] [INFO ] TCP Server stopped.
+[2026-04-11 13:00:38] [INFO ] === MCMS Shutdown Complete ===
+[2026-04-11 13:00:38] [INFO ] TCP Server stopped.
+[2026-04-11 13:00:38] [INFO ] === MCMS Logger Shutdown ===
+[2026-04-11 13:02:25] [INFO ] === MCMS Logger Initialized ===
+[2026-04-11 13:02:25] [INFO ] Control Engine initialized. State: IDLE
+[2026-04-11 13:02:25] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:02:25] [INFO ] ║     MCMS v3.0 — 4-Thread System      ║
+[2026-04-11 13:02:25] [INFO ] ║  Mobile Embedded Control & Safety     ║
+[2026-04-11 13:02:25] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:02:25] [INFO ] Thread 1: Network Receiver  — STARTING
+[2026-04-11 13:02:25] [INFO ] Thread 2: Control Engine    — STARTING
+[2026-04-11 13:02:25] [INFO ] Thread 3: Logger            — ACTIVE
+[2026-04-11 13:02:25] [INFO ] Thread 4: Simulator Output  — STARTING
+[2026-04-11 13:02:25] [INFO ] Simulator started — virtual motor output active.
+[2026-04-11 13:02:25] [INFO ] TCP Server listening on port 9000
+[2026-04-11 13:02:25] [INFO ] All systems online. Port 9000 ready.
+[2026-04-11 13:02:25] [INFO ] Awaiting phone connection...
+[2026-04-11 13:02:25] [INFO ] Waiting for phone connection...
+[2026-04-11 13:02:35] [INFO ] ♥ Heartbeat #10 | State: IDLE
+[2026-04-11 13:02:46] [INFO ] ♥ Heartbeat #20 | State: IDLE
+[2026-04-11 13:02:51] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 13:02:51] [INFO ] acc=(0.10,9.80,0.20) gyro=(0.00,0.00,0.10) sound=0.10 totalAcc=9.80
+[2026-04-11 13:02:51] [INFO ] System nominal. STATE: IDLE → MONITORING  [acc=9.80 gyro=0.10 sound=0.10]
+[2026-04-11 13:02:51] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 13:02:51] [INFO ] Waiting for phone connection...
+[2026-04-11 13:02:51] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:02:51] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:02:51] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:02:51] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:02:51] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:02:51] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:02:56] [INFO ] ♥ Heartbeat #30 | State: MONITORING
+[2026-04-11 13:03:01] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 13:03:01] [INFO ] acc=(10.00,15.00,5.00) gyro=(0.00,0.00,0.10) sound=0.10 totalAcc=18.71
+[2026-04-11 13:03:01] [ALERT] ⚠️  ALERT triggered. STATE: MONITORING → ALERT  [acc=18.71 gyro=0.10 sound=0.10]
+[2026-04-11 13:03:01] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 13:03:01] [INFO ] Waiting for phone connection...
+[2026-04-11 13:03:01] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:03:01] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:03:01] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:03:01] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:03:01] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:03:01] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:03:06] [INFO ] ♥ Heartbeat #40 | State: ALERT
+[2026-04-11 13:03:09] [INFO ] Phone connected from: 127.0.0.1
+[2026-04-11 13:03:09] [INFO ] acc=(20.00,18.00,10.00) gyro=(0.00,0.00,0.10) sound=0.10 totalAcc=28.71
+[2026-04-11 13:03:09] [ALERT] 🚨 EMERGENCY STOP! STATE: ALERT → EMERGENCY_STOP  [acc=28.71 gyro=0.10 sound=0.10]
+[2026-04-11 13:03:09] [ALERT] All virtual motors HALTED.
+[2026-04-11 13:03:09] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 13:03:09] [INFO ] Waiting for phone connection...
+[2026-04-11 13:03:09] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:03:09] [ALERT] ║  🔴 EMERGENCY STOP — ALL HALTED       ║
+[2026-04-11 13:03:09] [ALERT] ║  Motor A: KILL Motor B: KILL          ║
+[2026-04-11 13:03:09] [ALERT] ║  Motor C: KILL Motor D: KILL          ║
+[2026-04-11 13:03:09] [ALERT] ║  Pump: KILL  Valve: SEALED            ║
+[2026-04-11 13:03:09] [ALERT] ║  ⚡ SAFETY RELAY TRIGGERED            ║
+[2026-04-11 13:03:09] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:03:16] [INFO ] ♥ Heartbeat #50 | State: EMERGENCY_STOP
+[2026-04-11 13:03:16] [WARN ] Auto-reset from EMERGENCY_STOP after timeout.
+[2026-04-11 13:03:16] [INFO ] Manual RESET — EMERGENCY_STOP → MONITORING
+[2026-04-11 13:03:16] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:03:16] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:03:16] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:03:16] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:03:16] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:03:16] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:03:26] [INFO ] ♥ Heartbeat #60 | State: MONITORING
+[2026-04-11 13:03:36] [INFO ] ♥ Heartbeat #70 | State: MONITORING
+[2026-04-11 13:03:46] [INFO ] ♥ Heartbeat #80 | State: MONITORING
+[2026-04-11 13:03:56] [INFO ] ♥ Heartbeat #90 | State: MONITORING
+[2026-04-11 13:04:06] [INFO ] ♥ Heartbeat #100 | State: MONITORING
+[2026-04-11 13:04:16] [INFO ] ♥ Heartbeat #110 | State: MONITORING
+[2026-04-11 13:04:26] [INFO ] ♥ Heartbeat #120 | State: MONITORING
+[2026-04-11 13:04:36] [INFO ] ♥ Heartbeat #130 | State: MONITORING
+[2026-04-11 13:04:42] [WARN ] Shutdown signal (2) — shutting down...
+[2026-04-11 13:04:43] [INFO ] Simulator stopped.
+[2026-04-11 13:04:43] [INFO ] TCP Server stopped.
+[2026-04-11 13:04:43] [INFO ] === MCMS Shutdown Complete ===
+[2026-04-11 13:04:43] [INFO ] Simulator stopped.
+[2026-04-11 13:04:43] [INFO ] TCP Server stopped.
+[2026-04-11 13:04:43] [INFO ] === MCMS Logger Shutdown ===
+[2026-04-11 13:12:27] [INFO ] === MCMS Logger Initialized ===
+[2026-04-11 13:12:27] [INFO ] Control Engine initialized. State: IDLE
+[2026-04-11 13:12:27] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:12:27] [INFO ] ║     MCMS v3.0 — 4-Thread System      ║
+[2026-04-11 13:12:27] [INFO ] ║  Mobile Embedded Control & Safety     ║
+[2026-04-11 13:12:27] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:12:27] [INFO ] Thread 1: Network Receiver  — STARTING
+[2026-04-11 13:12:27] [INFO ] Thread 2: Control Engine    — STARTING
+[2026-04-11 13:12:27] [INFO ] Thread 3: Logger            — ACTIVE
+[2026-04-11 13:12:27] [INFO ] Thread 4: Simulator Output  — STARTING
+[2026-04-11 13:12:27] [INFO ] Simulator started — virtual motor output active.
+[2026-04-11 13:12:27] [INFO ] TCP Server listening on port 9000
+[2026-04-11 13:12:27] [INFO ] All systems online. Port 9000 ready.
+[2026-04-11 13:12:27] [INFO ] Awaiting phone connection...
+[2026-04-11 13:12:27] [INFO ] Waiting for phone connection...
+[2026-04-11 13:12:37] [INFO ] ♥ Heartbeat #10 | State: IDLE
+[2026-04-11 13:12:47] [INFO ] ♥ Heartbeat #20 | State: IDLE
+[2026-04-11 13:12:57] [INFO ] ♥ Heartbeat #30 | State: IDLE
+[2026-04-11 13:13:07] [INFO ] ♥ Heartbeat #40 | State: IDLE
+[2026-04-11 13:13:17] [INFO ] ♥ Heartbeat #50 | State: IDLE
+[2026-04-11 13:13:27] [INFO ] ♥ Heartbeat #60 | State: IDLE
+[2026-04-11 13:13:37] [INFO ] ♥ Heartbeat #70 | State: IDLE
+[2026-04-11 13:13:47] [INFO ] ♥ Heartbeat #80 | State: IDLE
+[2026-04-11 13:13:57] [INFO ] ♥ Heartbeat #90 | State: IDLE
+[2026-04-11 13:14:07] [INFO ] ♥ Heartbeat #100 | State: IDLE
+[2026-04-11 13:14:17] [INFO ] ♥ Heartbeat #110 | State: IDLE
+[2026-04-11 13:14:27] [INFO ] ♥ Heartbeat #120 | State: IDLE
+[2026-04-11 13:14:37] [INFO ] ♥ Heartbeat #130 | State: IDLE
+[2026-04-11 13:14:47] [INFO ] ♥ Heartbeat #140 | State: IDLE
+[2026-04-11 13:14:57] [INFO ] ♥ Heartbeat #150 | State: IDLE
+[2026-04-11 13:15:07] [INFO ] ♥ Heartbeat #160 | State: IDLE
+[2026-04-11 13:15:17] [INFO ] ♥ Heartbeat #170 | State: IDLE
+[2026-04-11 13:15:27] [INFO ] ♥ Heartbeat #180 | State: IDLE
+[2026-04-11 13:15:37] [INFO ] ♥ Heartbeat #190 | State: IDLE
+[2026-04-11 13:15:47] [INFO ] ♥ Heartbeat #200 | State: IDLE
+[2026-04-11 13:15:58] [INFO ] ♥ Heartbeat #210 | State: IDLE
+[2026-04-11 13:16:08] [INFO ] ♥ Heartbeat #220 | State: IDLE
+[2026-04-11 13:16:18] [INFO ] ♥ Heartbeat #230 | State: IDLE
+[2026-04-11 13:16:28] [INFO ] ♥ Heartbeat #240 | State: IDLE
+[2026-04-11 13:16:38] [INFO ] ♥ Heartbeat #250 | State: IDLE
+[2026-04-11 13:16:48] [INFO ] ♥ Heartbeat #260 | State: IDLE
+[2026-04-11 13:16:58] [INFO ] ♥ Heartbeat #270 | State: IDLE
+[2026-04-11 13:17:08] [INFO ] ♥ Heartbeat #280 | State: IDLE
+[2026-04-11 13:17:18] [INFO ] ♥ Heartbeat #290 | State: IDLE
+[2026-04-11 13:17:28] [INFO ] ♥ Heartbeat #300 | State: IDLE
+[2026-04-11 13:17:38] [INFO ] ♥ Heartbeat #310 | State: IDLE
+[2026-04-11 13:17:48] [INFO ] ♥ Heartbeat #320 | State: IDLE
+[2026-04-11 13:17:58] [INFO ] ♥ Heartbeat #330 | State: IDLE
+[2026-04-11 13:18:08] [INFO ] ♥ Heartbeat #340 | State: IDLE
+[2026-04-11 13:18:18] [INFO ] ♥ Heartbeat #350 | State: IDLE
+[2026-04-11 13:18:28] [INFO ] ♥ Heartbeat #360 | State: IDLE
+[2026-04-11 13:18:38] [INFO ] ♥ Heartbeat #370 | State: IDLE
+[2026-04-11 13:18:48] [INFO ] ♥ Heartbeat #380 | State: IDLE
+[2026-04-11 13:18:58] [INFO ] ♥ Heartbeat #390 | State: IDLE
+[2026-04-11 13:19:08] [INFO ] ♥ Heartbeat #400 | State: IDLE
+[2026-04-11 13:19:18] [INFO ] ♥ Heartbeat #410 | State: IDLE
+[2026-04-11 13:19:28] [INFO ] ♥ Heartbeat #420 | State: IDLE
+[2026-04-11 13:19:38] [INFO ] ♥ Heartbeat #430 | State: IDLE
+[2026-04-11 13:19:48] [INFO ] ♥ Heartbeat #440 | State: IDLE
+[2026-04-11 13:19:58] [INFO ] ♥ Heartbeat #450 | State: IDLE
+[2026-04-11 13:20:08] [INFO ] ♥ Heartbeat #460 | State: IDLE
+[2026-04-11 13:20:19] [INFO ] ♥ Heartbeat #470 | State: IDLE
+[2026-04-11 13:20:29] [INFO ] ♥ Heartbeat #480 | State: IDLE
+[2026-04-11 13:20:39] [INFO ] ♥ Heartbeat #490 | State: IDLE
+[2026-04-11 13:20:49] [INFO ] ♥ Heartbeat #500 | State: IDLE
+[2026-04-11 13:20:59] [INFO ] ♥ Heartbeat #510 | State: IDLE
+[2026-04-11 13:21:09] [INFO ] ♥ Heartbeat #520 | State: IDLE
+[2026-04-11 13:21:19] [INFO ] ♥ Heartbeat #530 | State: IDLE
+[2026-04-11 13:21:29] [INFO ] ♥ Heartbeat #540 | State: IDLE
+[2026-04-11 13:21:39] [INFO ] ♥ Heartbeat #550 | State: IDLE
+[2026-04-11 13:21:49] [INFO ] ♥ Heartbeat #560 | State: IDLE
+[2026-04-11 13:21:59] [INFO ] ♥ Heartbeat #570 | State: IDLE
+[2026-04-11 13:22:09] [INFO ] ♥ Heartbeat #580 | State: IDLE
+[2026-04-11 13:22:19] [INFO ] ♥ Heartbeat #590 | State: IDLE
+[2026-04-11 13:22:29] [INFO ] ♥ Heartbeat #600 | State: IDLE
+[2026-04-11 13:22:39] [INFO ] ♥ Heartbeat #610 | State: IDLE
+[2026-04-11 13:22:49] [INFO ] ♥ Heartbeat #620 | State: IDLE
+[2026-04-11 13:22:59] [INFO ] ♥ Heartbeat #630 | State: IDLE
+[2026-04-11 13:23:09] [INFO ] ♥ Heartbeat #640 | State: IDLE
+[2026-04-11 13:23:19] [INFO ] ♥ Heartbeat #650 | State: IDLE
+[2026-04-11 13:23:29] [INFO ] ♥ Heartbeat #660 | State: IDLE
+[2026-04-11 13:23:39] [INFO ] ♥ Heartbeat #670 | State: IDLE
+[2026-04-11 13:23:49] [INFO ] ♥ Heartbeat #680 | State: IDLE
+[2026-04-11 13:23:59] [INFO ] ♥ Heartbeat #690 | State: IDLE
+[2026-04-11 13:24:09] [INFO ] ♥ Heartbeat #700 | State: IDLE
+[2026-04-11 13:24:19] [INFO ] ♥ Heartbeat #710 | State: IDLE
+[2026-04-11 13:24:29] [INFO ] ♥ Heartbeat #720 | State: IDLE
+[2026-04-11 13:24:39] [INFO ] ♥ Heartbeat #730 | State: IDLE
+[2026-04-11 13:24:49] [INFO ] ♥ Heartbeat #740 | State: IDLE
+[2026-04-11 13:24:59] [INFO ] ♥ Heartbeat #750 | State: IDLE
+[2026-04-11 13:25:09] [INFO ] ♥ Heartbeat #760 | State: IDLE
+[2026-04-11 13:25:20] [INFO ] ♥ Heartbeat #770 | State: IDLE
+[2026-04-11 13:25:30] [INFO ] ♥ Heartbeat #780 | State: IDLE
+[2026-04-11 13:25:40] [INFO ] ♥ Heartbeat #790 | State: IDLE
+[2026-04-11 13:25:50] [INFO ] ♥ Heartbeat #800 | State: IDLE
+[2026-04-11 13:26:00] [INFO ] ♥ Heartbeat #810 | State: IDLE
+[2026-04-11 13:26:10] [INFO ] ♥ Heartbeat #820 | State: IDLE
+[2026-04-11 13:26:20] [INFO ] ♥ Heartbeat #830 | State: IDLE
+[2026-04-11 13:26:30] [INFO ] ♥ Heartbeat #840 | State: IDLE
+[2026-04-11 13:26:40] [INFO ] ♥ Heartbeat #850 | State: IDLE
+[2026-04-11 13:26:50] [INFO ] ♥ Heartbeat #860 | State: IDLE
+[2026-04-11 13:27:00] [INFO ] ♥ Heartbeat #870 | State: IDLE
+[2026-04-11 13:27:10] [INFO ] ♥ Heartbeat #880 | State: IDLE
+[2026-04-11 13:27:20] [INFO ] ♥ Heartbeat #890 | State: IDLE
+[2026-04-11 13:27:30] [INFO ] ♥ Heartbeat #900 | State: IDLE
+[2026-04-11 13:27:40] [INFO ] ♥ Heartbeat #910 | State: IDLE
+[2026-04-11 13:27:50] [INFO ] ♥ Heartbeat #920 | State: IDLE
+[2026-04-11 13:28:00] [INFO ] ♥ Heartbeat #930 | State: IDLE
+[2026-04-11 13:28:10] [INFO ] ♥ Heartbeat #940 | State: IDLE
+[2026-04-11 13:28:20] [INFO ] ♥ Heartbeat #950 | State: IDLE
+[2026-04-11 13:28:30] [INFO ] ♥ Heartbeat #960 | State: IDLE
+[2026-04-11 13:28:40] [INFO ] ♥ Heartbeat #970 | State: IDLE
+[2026-04-11 13:28:50] [INFO ] ♥ Heartbeat #980 | State: IDLE
+[2026-04-11 13:29:00] [INFO ] ♥ Heartbeat #990 | State: IDLE
+[2026-04-11 13:29:10] [INFO ] ♥ Heartbeat #1000 | State: IDLE
+[2026-04-11 13:29:20] [INFO ] ♥ Heartbeat #1010 | State: IDLE
+[2026-04-11 13:29:30] [INFO ] ♥ Heartbeat #1020 | State: IDLE
+[2026-04-11 13:29:40] [INFO ] ♥ Heartbeat #1030 | State: IDLE
+[2026-04-11 13:29:50] [INFO ] ♥ Heartbeat #1040 | State: IDLE
+[2026-04-11 13:30:00] [INFO ] ♥ Heartbeat #1050 | State: IDLE
+[2026-04-11 13:30:11] [INFO ] ♥ Heartbeat #1060 | State: IDLE
+[2026-04-11 13:30:21] [INFO ] ♥ Heartbeat #1070 | State: IDLE
+[2026-04-11 13:30:31] [INFO ] ♥ Heartbeat #1080 | State: IDLE
+[2026-04-11 13:30:41] [INFO ] ♥ Heartbeat #1090 | State: IDLE
+[2026-04-11 13:30:51] [INFO ] ♥ Heartbeat #1100 | State: IDLE
+[2026-04-11 13:31:01] [INFO ] ♥ Heartbeat #1110 | State: IDLE
+[2026-04-11 13:31:11] [INFO ] ♥ Heartbeat #1120 | State: IDLE
+[2026-04-11 13:31:21] [INFO ] ♥ Heartbeat #1130 | State: IDLE
+[2026-04-11 13:31:31] [INFO ] ♥ Heartbeat #1140 | State: IDLE
+[2026-04-11 13:31:41] [INFO ] ♥ Heartbeat #1150 | State: IDLE
+[2026-04-11 13:31:51] [INFO ] ♥ Heartbeat #1160 | State: IDLE
+[2026-04-11 13:32:01] [INFO ] ♥ Heartbeat #1170 | State: IDLE
+[2026-04-11 13:32:11] [INFO ] ♥ Heartbeat #1180 | State: IDLE
+[2026-04-11 13:32:21] [INFO ] ♥ Heartbeat #1190 | State: IDLE
+[2026-04-11 13:32:31] [INFO ] ♥ Heartbeat #1200 | State: IDLE
+[2026-04-11 13:32:41] [INFO ] ♥ Heartbeat #1210 | State: IDLE
+[2026-04-11 13:32:51] [INFO ] ♥ Heartbeat #1220 | State: IDLE
+[2026-04-11 13:33:01] [INFO ] ♥ Heartbeat #1230 | State: IDLE
+[2026-04-11 13:33:11] [INFO ] ♥ Heartbeat #1240 | State: IDLE
+[2026-04-11 13:33:20] [INFO ] Phone connected from: 192.168.1.23
+[2026-04-11 13:33:21] [INFO ] ♥ Heartbeat #1250 | State: IDLE
+[2026-04-11 13:33:31] [INFO ] ♥ Heartbeat #1260 | State: IDLE
+[2026-04-11 13:33:32] [INFO ] acc=(0.00,0.00,0.00) gyro=(0.00,0.00,0.00) sound=0.00 totalAcc=0.00
+[2026-04-11 13:33:32] [INFO ] System nominal. STATE: IDLE → MONITORING  [acc=0.00 gyro=0.00 sound=0.00]
+[2026-04-11 13:33:32] [INFO ] acc=(0.00,0.00,0.00) gyro=(0.00,0.00,0.00) sound=0.00 totalAcc=0.00
+[2026-04-11 13:33:33] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:33] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:33:33] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:33:33] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:33:33] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:33:33] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:33] [INFO ] acc=(0.00,0.00,0.00) gyro=(0.00,0.00,0.00) sound=0.00 totalAcc=0.00
+[2026-04-11 13:33:33] [INFO ] acc=(0.00,0.00,0.00) gyro=(-0.05,-0.04,0.01) sound=0.00 totalAcc=0.00
+[2026-04-11 13:33:33] [INFO ] acc=(-0.10,8.23,5.33) gyro=(-0.04,0.04,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:33] [INFO ] acc=(0.24,8.29,5.39) gyro=(-0.05,-0.05,0.06) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:33] [INFO ] acc=(0.51,8.19,5.43) gyro=(-0.05,0.04,0.07) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:33] [INFO ] acc=(0.23,8.47,4.54) gyro=(0.01,-0.10,-0.04) sound=0.00 totalAcc=9.61
+[2026-04-11 13:33:33] [INFO ] acc=(0.44,8.40,4.00) gyro=(-0.13,-0.32,-0.04) sound=0.00 totalAcc=9.31
+[2026-04-11 13:33:33] [INFO ] acc=(-0.51,6.78,6.76) gyro=(-1.30,-0.26,0.25) sound=0.00 totalAcc=9.59
+[2026-04-11 13:33:33] [INFO ] acc=(-0.69,5.46,7.65) gyro=(-1.96,0.34,0.73) sound=0.00 totalAcc=9.43
+[2026-04-11 13:33:33] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=9.43 gyro=2.12 sound=0.00]
+[2026-04-11 13:33:33] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:33] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:33:33] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:33:33] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:33:33] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:33:33] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:33] [INFO ] acc=(2.20,3.43,9.18) gyro=(-1.79,-0.45,1.06) sound=0.00 totalAcc=10.04
+[2026-04-11 13:33:34] [INFO ] acc=(2.09,2.29,10.78) gyro=(-1.00,-0.02,1.03) sound=0.00 totalAcc=11.21
+[2026-04-11 13:33:34] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=11.21 gyro=1.44 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:34] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:33:34] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:33:34] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:33:34] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:33:34] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:34] [INFO ] acc=(2.21,2.33,11.00) gyro=(2.18,1.00,1.13) sound=0.00 totalAcc=11.46
+[2026-04-11 13:33:34] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=11.46 gyro=2.65 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] acc=(2.15,5.90,5.02) gyro=(3.72,0.54,0.37) sound=0.00 totalAcc=8.04
+[2026-04-11 13:33:34] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=8.04 gyro=3.77 sound=0.00]
+[2026-04-11 13:33:34] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:34] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:33:34] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:33:34] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:33:34] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:33:34] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:34] [INFO ] acc=(2.93,7.75,4.55) gyro=(1.42,-1.09,-0.41) sound=0.00 totalAcc=9.45
+[2026-04-11 13:33:34] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=9.45 gyro=1.84 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] acc=(2.80,8.42,2.64) gyro=(1.16,-0.86,-0.43) sound=0.00 totalAcc=9.25
+[2026-04-11 13:33:34] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:34] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:33:34] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:33:34] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:33:34] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:33:34] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:34] [INFO ] acc=(2.35,8.45,3.97) gyro=(0.04,-0.94,-0.50) sound=0.00 totalAcc=9.63
+[2026-04-11 13:33:34] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.63 gyro=1.07 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] acc=(2.03,8.10,5.21) gyro=(-0.94,-1.07,-0.54) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:34] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=9.84 gyro=1.52 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] acc=(1.04,8.21,5.32) gyro=(-0.35,-0.34,-0.47) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:34] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.84 gyro=0.68 sound=0.00]
+[2026-04-11 13:33:34] [INFO ] acc=(0.88,8.30,5.27) gyro=(-0.23,-0.18,-0.38) sound=0.00 totalAcc=9.88
+[2026-04-11 13:33:34] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:34] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:33:34] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:33:34] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:33:34] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:33:34] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:34] [INFO ] acc=(1.11,8.25,5.11) gyro=(-0.09,0.00,-0.11) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:35] [INFO ] acc=(1.22,8.29,5.12) gyro=(-0.04,0.06,-0.05) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:35] [INFO ] acc=(1.45,8.14,5.38) gyro=(-0.06,0.05,0.04) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:35] [INFO ] acc=(1.42,8.15,5.35) gyro=(0.03,0.05,0.03) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:35] [INFO ] acc=(1.36,8.13,5.38) gyro=(0.02,0.09,0.06) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:35] [INFO ] acc=(1.46,8.14,5.13) gyro=(0.02,0.04,0.05) sound=0.00 totalAcc=9.73
+[2026-04-11 13:33:35] [INFO ] acc=(1.49,7.99,5.62) gyro=(-0.04,0.00,0.03) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:35] [INFO ] acc=(1.33,8.05,5.65) gyro=(0.01,0.00,0.01) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:35] [INFO ] acc=(1.56,8.14,5.23) gyro=(0.09,0.03,0.03) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:35] [INFO ] acc=(1.74,8.13,5.18) gyro=(0.09,0.01,0.04) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:36] [INFO ] acc=(1.56,8.17,5.42) gyro=(0.07,0.05,-0.01) sound=0.00 totalAcc=9.93
+[2026-04-11 13:33:36] [INFO ] acc=(1.65,8.15,5.41) gyro=(0.01,0.05,0.03) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:36] [INFO ] acc=(1.52,8.22,5.13) gyro=(0.04,-0.02,-0.05) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:36] [INFO ] acc=(1.30,8.28,5.11) gyro=(0.03,0.01,-0.07) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:36] [INFO ] acc=(1.28,8.31,4.98) gyro=(0.05,-0.02,-0.05) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:36] [INFO ] acc=(1.35,8.27,4.94) gyro=(0.01,-0.02,-0.02) sound=0.00 totalAcc=9.73
+[2026-04-11 13:33:36] [INFO ] acc=(1.41,8.22,5.28) gyro=(-0.04,-0.01,0.01) sound=0.00 totalAcc=9.87
+[2026-04-11 13:33:36] [INFO ] acc=(1.45,8.30,5.01) gyro=(0.02,-0.03,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:36] [INFO ] acc=(1.43,8.31,4.90) gyro=(0.01,-0.01,-0.01) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:36] [INFO ] acc=(1.33,8.30,5.04) gyro=(-0.01,0.01,-0.02) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:36] [INFO ] acc=(1.33,8.31,5.12) gyro=(-0.00,-0.01,-0.00) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:37] [INFO ] acc=(1.46,8.24,5.33) gyro=(-0.01,0.01,0.01) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:37] [INFO ] acc=(1.47,8.29,4.93) gyro=(0.02,-0.02,-0.01) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:37] [INFO ] acc=(1.47,8.27,5.16) gyro=(-0.01,0.02,-0.01) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:37] [INFO ] acc=(1.32,8.33,5.10) gyro=(0.02,-0.00,-0.02) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:37] [INFO ] acc=(1.30,8.35,5.00) gyro=(0.04,0.02,-0.01) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:37] [INFO ] acc=(1.09,8.34,5.14) gyro=(-0.02,0.04,0.00) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:37] [INFO ] acc=(1.40,8.23,5.12) gyro=(-0.03,0.01,0.04) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:37] [INFO ] acc=(1.51,8.23,5.12) gyro=(-0.02,-0.00,0.05) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:37] [INFO ] acc=(1.49,8.18,5.12) gyro=(-0.02,0.01,0.02) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:37] [INFO ] acc=(1.37,8.23,5.11) gyro=(-0.03,0.01,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:38] [INFO ] acc=(1.36,8.28,5.13) gyro=(-0.01,-0.01,-0.01) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:38] [INFO ] acc=(1.40,8.23,5.09) gyro=(-0.01,0.00,0.01) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:38] [INFO ] acc=(1.46,8.19,5.18) gyro=(-0.02,-0.01,0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:38] [INFO ] acc=(1.31,8.18,5.24) gyro=(0.02,0.04,-0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:38] [INFO ] acc=(1.19,8.43,4.99) gyro=(-0.02,0.06,-0.01) sound=0.00 totalAcc=9.87
+[2026-04-11 13:33:38] [INFO ] acc=(2.23,8.09,4.98) gyro=(-0.05,-0.05,0.10) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:38] [INFO ] acc=(1.22,8.04,5.02) gyro=(-0.02,0.12,-0.09) sound=0.00 totalAcc=9.55
+[2026-04-11 13:33:38] [INFO ] acc=(0.34,8.20,6.00) gyro=(-0.12,0.02,-0.16) sound=0.00 totalAcc=10.17
+[2026-04-11 13:33:38] [INFO ] acc=(0.16,8.49,5.87) gyro=(0.23,-0.03,-0.16) sound=0.00 totalAcc=10.33
+[2026-04-11 13:33:39] [INFO ] acc=(1.36,8.70,4.25) gyro=(0.30,-0.27,0.11) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:39] [INFO ] acc=(1.98,8.35,4.45) gyro=(0.06,-0.02,0.22) sound=0.00 totalAcc=9.67
+[2026-04-11 13:33:39] [INFO ] acc=(1.90,7.97,5.65) gyro=(-0.11,0.11,0.11) sound=0.00 totalAcc=9.95
+[2026-04-11 13:33:39] [INFO ] acc=(1.29,8.65,5.93) gyro=(-0.04,0.16,-0.10) sound=0.00 totalAcc=10.57
+[2026-04-11 13:33:39] [INFO ] acc=(0.88,8.64,3.66) gyro=(0.22,-0.11,-0.15) sound=0.00 totalAcc=9.43
+[2026-04-11 13:33:39] [INFO ] acc=(0.99,8.49,4.72) gyro=(-0.09,-0.03,0.04) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:39] [INFO ] acc=(1.58,8.37,4.98) gyro=(-0.08,0.08,0.10) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:39] [INFO ] acc=(1.80,8.30,4.61) gyro=(-0.02,-0.02,0.12) sound=0.00 totalAcc=9.67
+[2026-04-11 13:33:39] [INFO ] acc=(1.59,8.26,5.21) gyro=(-0.04,0.07,0.03) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:39] [INFO ] acc=(1.60,8.44,4.51) gyro=(0.04,0.03,-0.02) sound=0.00 totalAcc=9.70
+[2026-04-11 13:33:39] [INFO ] acc=(1.08,8.38,5.14) gyro=(-0.04,0.06,-0.04) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:40] [INFO ] acc=(1.33,8.30,4.79) gyro=(0.04,0.03,-0.05) sound=0.00 totalAcc=9.68
+[2026-04-11 13:33:40] [INFO ] acc=(1.46,8.38,4.92) gyro=(0.03,0.04,-0.02) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:40] [INFO ] acc=(1.27,8.39,4.89) gyro=(0.02,-0.01,-0.06) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:40] [INFO ] acc=(1.09,8.50,4.54) gyro=(0.03,-0.01,-0.08) sound=0.00 totalAcc=9.70
+[2026-04-11 13:33:40] [INFO ] acc=(1.00,8.42,5.03) gyro=(-0.04,-0.01,-0.06) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:40] [INFO ] acc=(1.06,8.49,4.65) gyro=(0.01,-0.01,-0.02) sound=0.00 totalAcc=9.74
+[2026-04-11 13:33:40] [INFO ] acc=(1.34,8.42,4.59) gyro=(-0.01,0.00,0.02) sound=0.00 totalAcc=9.68
+[2026-04-11 13:33:40] [INFO ] acc=(1.44,8.49,4.44) gyro=(-0.04,-0.00,-0.03) sound=0.00 totalAcc=9.69
+[2026-04-11 13:33:40] [INFO ] acc=(1.19,8.15,5.59) gyro=(-0.13,0.07,-0.05) sound=0.00 totalAcc=9.95
+[2026-04-11 13:33:40] [INFO ] acc=(0.33,8.63,4.76) gyro=(0.02,-0.02,-0.12) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:41] [INFO ] acc=(0.51,8.71,3.49) gyro=(0.16,-0.06,-0.13) sound=0.00 totalAcc=9.40
+[2026-04-11 13:33:41] [INFO ] acc=(-8.78,9.32,9.75) gyro=(-0.43,-0.21,0.23) sound=0.00 totalAcc=16.09
+[2026-04-11 13:33:41] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=16.09 gyro=0.54 sound=0.00]
+[2026-04-11 13:33:41] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:41] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:33:41] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:33:41] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:33:41] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:33:41] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:41] [INFO ] acc=(-4.34,9.02,5.25) gyro=(0.91,1.67,1.26) sound=0.00 totalAcc=11.30
+[2026-04-11 13:33:41] [INFO ] acc=(9.35,4.52,5.61) gyro=(0.36,3.36,2.17) sound=0.00 totalAcc=11.80
+[2026-04-11 13:33:41] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=11.80 gyro=4.02 sound=0.00]
+[2026-04-11 13:33:41] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:41] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:33:41] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:33:41] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:33:41] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:33:41] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:41] [INFO ] acc=(11.78,5.79,7.12) gyro=(0.15,2.10,0.62) sound=0.00 totalAcc=14.93
+[2026-04-11 13:33:41] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=14.93 gyro=2.20 sound=0.00]
+[2026-04-11 13:33:41] [INFO ] acc=(6.40,7.51,5.38) gyro=(-0.21,-2.10,-1.14) sound=0.00 totalAcc=11.24
+[2026-04-11 13:33:41] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:41] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:33:41] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:33:41] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:33:41] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:33:41] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:41] [INFO ] acc=(-0.89,7.72,7.16) gyro=(-0.61,-2.72,-1.89) sound=0.00 totalAcc=10.57
+[2026-04-11 13:33:41] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=10.57 gyro=3.37 sound=0.00]
+[2026-04-11 13:33:41] [INFO ] ♥ Heartbeat #1270 | State: ALERT
+[2026-04-11 13:33:41] [INFO ] acc=(-13.44,10.41,5.62) gyro=(0.36,-0.60,-1.18) sound=0.00 totalAcc=17.91
+[2026-04-11 13:33:41] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=17.91 gyro=1.37 sound=0.00]
+[2026-04-11 13:33:42] [INFO ] acc=(-5.94,7.79,5.24) gyro=(0.19,-0.07,0.75) sound=0.00 totalAcc=11.11
+[2026-04-11 13:33:42] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=11.11 gyro=0.78 sound=0.00]
+[2026-04-11 13:33:42] [INFO ] acc=(3.75,7.67,3.12) gyro=(0.25,1.92,0.88) sound=0.00 totalAcc=9.08
+[2026-04-11 13:33:42] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=9.08 gyro=2.12 sound=0.00]
+[2026-04-11 13:33:42] [INFO ] acc=(7.27,7.90,5.61) gyro=(-0.14,1.84,0.57) sound=0.00 totalAcc=12.12
+[2026-04-11 13:33:42] [INFO ] acc=(10.75,6.12,7.12) gyro=(-0.57,-0.15,0.54) sound=0.00 totalAcc=14.27
+[2026-04-11 13:33:42] [INFO ] acc=(-0.21,7.03,6.40) gyro=(-0.31,-2.04,-1.38) sound=0.00 totalAcc=9.51
+[2026-04-11 13:33:42] [INFO ] acc=(-5.35,9.80,4.46) gyro=(0.16,-1.10,-1.57) sound=0.00 totalAcc=12.03
+[2026-04-11 13:33:42] [INFO ] acc=(-0.80,7.69,4.87) gyro=(-0.28,-0.69,-0.14) sound=0.00 totalAcc=9.13
+[2026-04-11 13:33:42] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.13 gyro=0.76 sound=0.00]
+[2026-04-11 13:33:42] [INFO ] acc=(1.01,7.34,4.61) gyro=(-0.20,-0.32,0.15) sound=0.00 totalAcc=8.73
+[2026-04-11 13:33:42] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:33:42] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:33:42] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:33:42] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:33:42] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:33:42] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:33:42] [INFO ] acc=(0.02,8.15,5.01) gyro=(-0.31,-0.64,-0.16) sound=0.00 totalAcc=9.57
+[2026-04-11 13:33:42] [INFO ] acc=(-0.88,8.34,6.52) gyro=(-0.35,0.00,-0.13) sound=0.00 totalAcc=10.62
+[2026-04-11 13:33:42] [INFO ] acc=(0.69,7.61,6.38) gyro=(-0.14,0.01,0.13) sound=0.00 totalAcc=9.95
+[2026-04-11 13:33:42] [INFO ] acc=(0.60,8.08,5.16) gyro=(0.16,0.18,0.03) sound=0.00 totalAcc=9.61
+[2026-04-11 13:33:43] [INFO ] acc=(0.05,8.52,5.77) gyro=(0.01,0.49,0.14) sound=0.00 totalAcc=10.29
+[2026-04-11 13:33:43] [INFO ] acc=(0.95,8.08,5.19) gyro=(0.17,0.36,0.32) sound=0.00 totalAcc=9.65
+[2026-04-11 13:33:43] [INFO ] acc=(1.21,7.91,5.73) gyro=(0.01,0.48,0.44) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:43] [INFO ] acc=(2.26,7.87,5.70) gyro=(-0.02,0.32,0.48) sound=0.00 totalAcc=9.97
+[2026-04-11 13:33:43] [INFO ] acc=(2.49,7.90,5.22) gyro=(0.05,0.19,0.32) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:43] [INFO ] acc=(2.00,8.04,5.45) gyro=(0.06,0.08,0.07) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:43] [INFO ] acc=(1.43,7.97,5.33) gyro=(0.01,0.05,-0.06) sound=0.00 totalAcc=9.69
+[2026-04-11 13:33:43] [INFO ] acc=(1.28,8.00,5.41) gyro=(-0.03,-0.04,-0.10) sound=0.00 totalAcc=9.74
+[2026-04-11 13:33:43] [INFO ] acc=(1.51,8.02,5.64) gyro=(-0.02,-0.07,-0.09) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:43] [INFO ] acc=(1.50,8.04,5.23) gyro=(0.08,-0.06,-0.17) sound=0.00 totalAcc=9.71
+[2026-04-11 13:33:44] [INFO ] acc=(1.19,7.98,5.57) gyro=(0.03,-0.13,-0.22) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:44] [INFO ] acc=(0.17,7.99,5.48) gyro=(0.16,-0.10,-0.30) sound=0.00 totalAcc=9.69
+[2026-04-11 13:33:44] [INFO ] acc=(0.19,8.38,5.15) gyro=(0.33,-0.18,-0.26) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:44] [INFO ] acc=(0.52,8.32,5.21) gyro=(0.01,-0.04,-0.02) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:44] [INFO ] acc=(0.67,8.40,5.24) gyro=(-0.02,0.05,0.01) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:44] [INFO ] acc=(0.42,8.44,5.13) gyro=(0.02,0.03,-0.01) sound=0.00 totalAcc=9.88
+[2026-04-11 13:33:44] [INFO ] acc=(0.59,8.56,4.68) gyro=(0.10,0.01,-0.04) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:44] [INFO ] acc=(0.77,8.44,4.86) gyro=(0.01,0.00,0.04) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:44] [INFO ] acc=(0.88,8.34,5.25) gyro=(-0.04,0.00,0.04) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:44] [INFO ] acc=(0.68,8.39,4.97) gyro=(0.04,-0.03,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:45] [INFO ] acc=(0.84,8.44,5.16) gyro=(0.06,-0.08,-0.01) sound=0.00 totalAcc=9.93
+[2026-04-11 13:33:45] [INFO ] acc=(0.62,8.49,4.87) gyro=(0.05,-0.09,-0.03) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:45] [INFO ] acc=(0.70,8.61,4.45) gyro=(0.08,-0.08,-0.02) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:45] [INFO ] acc=(1.21,8.53,4.69) gyro=(-0.02,-0.06,0.06) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:45] [INFO ] acc=(1.19,8.31,5.09) gyro=(-0.03,-0.03,0.01) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:45] [INFO ] acc=(0.87,8.53,4.66) gyro=(0.03,-0.04,-0.08) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:45] [INFO ] acc=(0.40,8.61,4.51) gyro=(0.05,-0.03,-0.09) sound=0.00 totalAcc=9.73
+[2026-04-11 13:33:45] [INFO ] acc=(0.73,8.62,4.50) gyro=(0.02,-0.01,0.02) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:45] [INFO ] acc=(0.74,8.51,4.76) gyro=(-0.01,-0.06,0.02) sound=0.00 totalAcc=9.78
+[2026-04-11 13:33:45] [INFO ] acc=(0.85,8.55,4.64) gyro=(0.02,-0.01,0.03) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:46] [INFO ] acc=(1.05,8.57,4.64) gyro=(0.02,0.00,0.06) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:46] [INFO ] acc=(0.91,8.38,4.85) gyro=(0.03,0.06,0.06) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:46] [INFO ] acc=(0.42,8.46,5.04) gyro=(-0.02,0.13,0.05) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:46] [INFO ] acc=(0.47,8.60,4.87) gyro=(0.00,0.27,0.12) sound=0.00 totalAcc=9.90
+[2026-04-11 13:33:46] [INFO ] acc=(1.29,8.60,4.88) gyro=(0.01,0.17,0.25) sound=0.00 totalAcc=9.97
+[2026-04-11 13:33:46] [INFO ] acc=(1.64,8.59,4.56) gyro=(0.05,0.09,0.19) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:46] [INFO ] acc=(1.79,8.59,4.40) gyro=(0.10,0.03,0.13) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:46] [INFO ] acc=(1.57,8.70,4.34) gyro=(0.02,-0.10,0.01) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:46] [INFO ] acc=(1.64,8.51,4.26) gyro=(0.04,-0.14,-0.03) sound=0.00 totalAcc=9.65
+[2026-04-11 13:33:46] [INFO ] acc=(0.70,8.68,4.47) gyro=(-0.03,-0.06,-0.11) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:47] [INFO ] acc=(0.48,8.54,4.84) gyro=(-0.09,0.16,0.01) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:47] [INFO ] acc=(1.41,8.54,4.75) gyro=(-0.04,0.06,0.12) sound=0.00 totalAcc=9.87
+[2026-04-11 13:33:47] [INFO ] acc=(1.56,8.54,4.93) gyro=(0.09,0.16,0.15) sound=0.00 totalAcc=9.98
+[2026-04-11 13:33:47] [INFO ] acc=(1.96,8.61,4.52) gyro=(0.08,0.05,0.07) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:47] [INFO ] acc=(1.89,8.67,4.43) gyro=(0.13,0.03,0.05) sound=0.00 totalAcc=9.91
+[2026-04-11 13:33:47] [INFO ] acc=(1.61,8.75,4.17) gyro=(0.15,-0.15,-0.07) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:47] [INFO ] acc=(1.33,8.79,3.97) gyro=(0.14,-0.10,-0.10) sound=0.00 totalAcc=9.74
+[2026-04-11 13:33:47] [INFO ] acc=(0.90,8.83,3.71) gyro=(-0.01,-0.10,-0.14) sound=0.00 totalAcc=9.62
+[2026-04-11 13:33:47] [INFO ] acc=(0.49,8.84,5.37) gyro=(-0.23,-0.07,-0.03) sound=0.00 totalAcc=10.36
+[2026-04-11 13:33:47] [INFO ] acc=(1.15,8.56,4.06) gyro=(0.10,0.28,0.14) sound=0.00 totalAcc=9.54
+[2026-04-11 13:33:48] [INFO ] acc=(2.88,8.69,4.18) gyro=(-0.20,-0.09,0.45) sound=0.00 totalAcc=10.06
+[2026-04-11 13:33:48] [INFO ] acc=(1.65,8.40,4.92) gyro=(-0.13,0.19,0.04) sound=0.00 totalAcc=9.88
+[2026-04-11 13:33:48] [INFO ] acc=(1.30,8.61,4.42) gyro=(0.02,-0.02,-0.08) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:48] [INFO ] acc=(1.19,8.79,4.10) gyro=(0.02,-0.07,-0.03) sound=0.00 totalAcc=9.78
+[2026-04-11 13:33:48] [INFO ] acc=(1.67,8.48,4.60) gyro=(-0.03,0.07,0.05) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:48] [INFO ] acc=(1.53,8.42,4.96) gyro=(-0.11,0.18,0.11) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:48] [INFO ] acc=(2.01,8.40,4.52) gyro=(0.00,-0.03,0.12) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:48] [INFO ] acc=(1.53,8.50,4.67) gyro=(-0.04,0.08,0.02) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:49] [INFO ] acc=(1.55,8.51,4.24) gyro=(0.04,0.10,0.01) sound=0.00 totalAcc=9.63
+[2026-04-11 13:33:49] [INFO ] acc=(1.85,8.38,4.72) gyro=(-0.06,0.03,0.08) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:49] [INFO ] acc=(1.85,8.35,5.12) gyro=(-0.11,0.14,0.09) sound=0.00 totalAcc=9.97
+[2026-04-11 13:33:49] [INFO ] acc=(2.08,8.29,4.82) gyro=(-0.02,-0.05,0.05) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:49] [INFO ] acc=(1.72,8.32,4.84) gyro=(-0.01,0.01,-0.02) sound=0.00 totalAcc=9.78
+[2026-04-11 13:33:49] [INFO ] acc=(1.81,8.36,4.60) gyro=(0.02,0.01,-0.01) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:49] [INFO ] acc=(1.85,8.33,4.89) gyro=(-0.03,-0.00,-0.00) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:49] [INFO ] acc=(1.77,8.34,4.73) gyro=(0.02,-0.00,-0.02) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:49] [INFO ] acc=(1.58,8.41,4.82) gyro=(-0.00,0.00,-0.04) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:49] [INFO ] acc=(1.71,8.36,4.82) gyro=(-0.04,0.02,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:49] [INFO ] acc=(1.75,8.36,4.81) gyro=(-0.03,0.02,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:49] [INFO ] acc=(1.73,8.35,4.96) gyro=(-0.02,0.02,-0.00) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:50] [INFO ] acc=(1.78,8.26,4.96) gyro=(0.00,0.01,-0.02) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:50] [INFO ] acc=(1.68,8.35,4.70) gyro=(-0.02,0.03,-0.07) sound=0.00 totalAcc=9.73
+[2026-04-11 13:33:50] [INFO ] acc=(1.47,8.30,4.99) gyro=(-0.05,0.00,-0.08) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:50] [INFO ] acc=(1.38,8.47,4.57) gyro=(-0.00,-0.02,-0.08) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:50] [INFO ] acc=(1.39,8.30,4.89) gyro=(-0.04,-0.07,-0.05) sound=0.00 totalAcc=9.74
+[2026-04-11 13:33:50] [INFO ] acc=(1.27,8.32,5.19) gyro=(-0.03,0.04,0.01) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:50] [INFO ] acc=(1.55,8.29,4.99) gyro=(0.02,-0.04,0.04) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:50] [INFO ] acc=(1.72,8.29,4.55) gyro=(0.07,-0.05,0.05) sound=0.00 totalAcc=9.62
+[2026-04-11 13:33:50] [INFO ] acc=(1.68,8.31,4.72) gyro=(0.02,-0.08,0.04) sound=0.00 totalAcc=9.70
+[2026-04-11 13:33:50] [INFO ] acc=(1.43,8.35,4.99) gyro=(-0.04,0.00,-0.02) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:51] [INFO ] acc=(1.50,8.36,4.88) gyro=(-0.02,-0.02,0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:51] [INFO ] acc=(1.75,8.24,4.83) gyro=(-0.03,0.01,0.06) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:51] [INFO ] acc=(1.65,8.34,4.98) gyro=(-0.06,-0.02,0.07) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:51] [INFO ] acc=(1.89,8.23,5.00) gyro=(-0.05,-0.04,0.05) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:51] [INFO ] acc=(1.94,8.15,5.11) gyro=(-0.04,-0.02,0.05) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:51] [INFO ] acc=(1.42,8.27,4.99) gyro=(0.02,0.03,-0.01) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:51] [INFO ] acc=(1.69,8.22,5.33) gyro=(0.01,0.03,0.07) sound=0.00 totalAcc=9.94
+[2026-04-11 13:33:51] [INFO ] acc=(1.84,8.19,5.15) gyro=(0.02,0.12,0.10) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:51] [INFO ] ♥ Heartbeat #1280 | State: MONITORING
+[2026-04-11 13:33:51] [INFO ] acc=(1.85,8.09,5.06) gyro=(-0.02,0.15,0.03) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:51] [INFO ] acc=(1.75,8.19,5.52) gyro=(0.02,0.12,0.01) sound=0.00 totalAcc=10.03
+[2026-04-11 13:33:52] [INFO ] acc=(1.78,8.30,4.55) gyro=(0.13,-0.02,-0.01) sound=0.00 totalAcc=9.63
+[2026-04-11 13:33:52] [INFO ] acc=(1.92,8.13,5.26) gyro=(0.02,-0.02,0.04) sound=0.00 totalAcc=9.87
+[2026-04-11 13:33:52] [INFO ] acc=(1.96,8.20,5.28) gyro=(-0.05,0.07,0.02) sound=0.00 totalAcc=9.95
+[2026-04-11 13:33:52] [INFO ] acc=(1.66,8.25,5.25) gyro=(0.02,0.01,-0.04) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:52] [INFO ] acc=(1.86,8.20,5.26) gyro=(0.04,-0.02,-0.03) sound=0.00 totalAcc=9.91
+[2026-04-11 13:33:52] [INFO ] acc=(1.45,8.52,4.72) gyro=(0.07,-0.11,-0.08) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:52] [INFO ] acc=(1.80,8.47,4.38) gyro=(0.11,-0.27,-0.01) sound=0.00 totalAcc=9.70
+[2026-04-11 13:33:52] [INFO ] acc=(2.02,7.94,5.07) gyro=(-0.12,-0.18,0.07) sound=0.00 totalAcc=9.63
+[2026-04-11 13:33:52] [INFO ] acc=(1.45,8.45,5.23) gyro=(-0.12,-0.05,-0.01) sound=0.00 totalAcc=10.05
+[2026-04-11 13:33:52] [INFO ] acc=(1.37,8.35,5.04) gyro=(-0.03,0.09,0.00) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:53] [INFO ] acc=(2.32,7.96,5.29) gyro=(-0.03,0.01,0.13) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:53] [INFO ] acc=(1.98,8.17,5.25) gyro=(-0.03,0.08,0.04) sound=0.00 totalAcc=9.91
+[2026-04-11 13:33:53] [INFO ] acc=(2.18,8.12,5.32) gyro=(0.02,0.05,0.05) sound=0.00 totalAcc=9.95
+[2026-04-11 13:33:53] [INFO ] acc=(2.25,8.22,4.78) gyro=(0.09,-0.01,-0.03) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:53] [INFO ] acc=(2.28,8.18,4.87) gyro=(0.06,0.00,-0.03) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:53] [INFO ] acc=(1.89,8.30,5.03) gyro=(0.04,0.01,-0.08) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:53] [INFO ] acc=(1.65,8.30,4.72) gyro=(0.06,-0.00,-0.11) sound=0.00 totalAcc=9.68
+[2026-04-11 13:33:53] [INFO ] acc=(1.21,8.41,4.87) gyro=(0.02,0.08,-0.09) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:53] [INFO ] acc=(1.22,8.45,4.71) gyro=(0.01,0.10,-0.01) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:53] [INFO ] acc=(1.99,8.36,4.70) gyro=(0.01,0.07,0.13) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:54] [INFO ] acc=(2.15,8.32,4.90) gyro=(-0.04,0.06,0.12) sound=0.00 totalAcc=9.90
+[2026-04-11 13:33:54] [INFO ] acc=(2.10,8.25,4.76) gyro=(-0.03,-0.02,0.04) sound=0.00 totalAcc=9.75
+[2026-04-11 13:33:54] [INFO ] acc=(1.93,8.44,4.83) gyro=(-0.03,-0.08,-0.03) sound=0.00 totalAcc=9.91
+[2026-04-11 13:33:54] [INFO ] acc=(2.23,8.21,4.87) gyro=(-0.04,-0.14,-0.01) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:54] [INFO ] acc=(1.93,8.23,4.98) gyro=(-0.02,-0.14,-0.08) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:54] [INFO ] acc=(1.36,8.32,4.82) gyro=(-0.02,-0.06,-0.06) sound=0.00 totalAcc=9.71
+[2026-04-11 13:33:54] [INFO ] acc=(1.25,8.32,5.38) gyro=(-0.03,-0.01,-0.04) sound=0.00 totalAcc=9.98
+[2026-04-11 13:33:54] [INFO ] acc=(1.74,8.14,4.92) gyro=(0.05,0.16,0.10) sound=0.00 totalAcc=9.67
+[2026-04-11 13:33:54] [INFO ] acc=(1.58,8.34,4.93) gyro=(0.12,0.17,0.12) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:54] [INFO ] acc=(2.24,8.25,4.72) gyro=(0.02,0.11,0.17) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:55] [INFO ] acc=(2.47,8.24,4.75) gyro=(0.01,0.10,0.15) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:55] [INFO ] acc=(2.34,8.27,4.90) gyro=(0.05,0.05,0.07) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:55] [INFO ] acc=(2.24,8.30,4.47) gyro=(0.06,-0.03,0.01) sound=0.00 totalAcc=9.69
+[2026-04-11 13:33:55] [INFO ] acc=(2.02,8.28,5.06) gyro=(-0.01,0.01,-0.03) sound=0.00 totalAcc=9.92
+[2026-04-11 13:33:55] [INFO ] acc=(1.96,8.34,5.08) gyro=(0.01,-0.06,-0.04) sound=0.00 totalAcc=9.96
+[2026-04-11 13:33:55] [INFO ] acc=(2.18,8.38,4.42) gyro=(0.11,-0.10,-0.08) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:55] [INFO ] acc=(1.75,8.53,4.09) gyro=(0.09,-0.03,-0.16) sound=0.00 totalAcc=9.62
+[2026-04-11 13:33:55] [INFO ] acc=(1.87,8.41,4.77) gyro=(-0.06,0.00,0.00) sound=0.00 totalAcc=9.85
+[2026-04-11 13:33:55] [INFO ] acc=(1.91,8.41,4.92) gyro=(-0.03,0.06,0.03) sound=0.00 totalAcc=9.93
+[2026-04-11 13:33:55] [INFO ] acc=(2.05,8.41,4.63) gyro=(0.02,-0.06,0.02) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:56] [INFO ] acc=(2.07,8.46,4.41) gyro=(0.07,0.02,-0.05) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:56] [INFO ] acc=(1.61,8.38,5.10) gyro=(0.06,-0.01,-0.08) sound=0.00 totalAcc=9.94
+[2026-04-11 13:33:56] [INFO ] acc=(1.79,8.77,3.70) gyro=(0.34,0.19,-0.04) sound=0.00 totalAcc=9.69
+[2026-04-11 13:33:56] [INFO ] acc=(1.55,8.64,4.18) gyro=(0.07,-0.06,-0.06) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:56] [INFO ] acc=(1.53,8.75,4.28) gyro=(0.04,-0.09,-0.05) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:56] [INFO ] acc=(1.68,8.71,4.18) gyro=(0.04,-0.03,-0.03) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:56] [INFO ] acc=(1.68,8.80,4.01) gyro=(0.12,-0.06,-0.06) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:56] [INFO ] acc=(1.52,8.89,3.62) gyro=(0.11,-0.03,-0.08) sound=0.00 totalAcc=9.72
+[2026-04-11 13:33:56] [INFO ] acc=(1.39,8.88,3.86) gyro=(0.00,-0.02,-0.05) sound=0.00 totalAcc=9.78
+[2026-04-11 13:33:56] [INFO ] acc=(1.46,8.89,3.81) gyro=(-0.02,-0.03,-0.03) sound=0.00 totalAcc=9.79
+[2026-04-11 13:33:57] [INFO ] acc=(1.42,8.87,3.92) gyro=(-0.03,-0.03,-0.03) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:57] [INFO ] acc=(1.43,8.89,3.91) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.81
+[2026-04-11 13:33:57] [INFO ] acc=(1.67,8.81,3.96) gyro=(-0.00,-0.01,0.02) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:57] [INFO ] acc=(1.50,8.82,3.95) gyro=(0.01,-0.01,-0.02) sound=0.00 totalAcc=9.78
+[2026-04-11 13:33:57] [INFO ] acc=(1.28,8.89,3.96) gyro=(-0.01,-0.00,-0.03) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:57] [INFO ] acc=(1.63,8.87,3.76) gyro=(-0.03,-0.03,0.03) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:57] [INFO ] acc=(1.59,8.81,4.08) gyro=(-0.04,-0.01,0.03) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:57] [INFO ] acc=(1.51,8.80,3.98) gyro=(-0.04,-0.03,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:33:57] [INFO ] acc=(1.50,8.80,4.04) gyro=(-0.00,-0.01,-0.02) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:57] [INFO ] acc=(1.63,8.85,3.97) gyro=(0.03,0.00,-0.00) sound=0.00 totalAcc=9.84
+[2026-04-11 13:33:58] [INFO ] acc=(1.81,8.66,4.21) gyro=(-0.02,0.01,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:58] [INFO ] acc=(1.66,8.52,4.32) gyro=(-0.05,-0.23,-0.14) sound=0.00 totalAcc=9.70
+[2026-04-11 13:33:58] [INFO ] acc=(1.10,9.06,3.62) gyro=(0.00,-0.32,-0.14) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:58] [INFO ] acc=(1.89,9.10,3.69) gyro=(-0.15,0.09,0.03) sound=0.00 totalAcc=10.00
+[2026-04-11 13:33:58] [INFO ] acc=(3.11,9.02,4.55) gyro=(-0.17,-0.17,-0.02) sound=0.00 totalAcc=10.57
+[2026-04-11 13:33:58] [INFO ] acc=(0.13,9.01,4.65) gyro=(-0.12,0.02,-0.36) sound=0.00 totalAcc=10.14
+[2026-04-11 13:33:58] [INFO ] acc=(0.58,9.06,4.71) gyro=(0.17,0.07,-0.42) sound=0.00 totalAcc=10.23
+[2026-04-11 13:33:58] [INFO ] acc=(0.06,8.57,3.82) gyro=(0.16,0.25,-0.08) sound=0.00 totalAcc=9.38
+[2026-04-11 13:33:58] [INFO ] acc=(1.26,8.99,3.70) gyro=(0.11,0.06,0.20) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:58] [INFO ] acc=(1.47,8.67,4.55) gyro=(-0.06,0.20,0.23) sound=0.00 totalAcc=9.91
+[2026-04-11 13:33:59] [INFO ] acc=(1.77,8.63,4.48) gyro=(-0.09,0.05,0.22) sound=0.00 totalAcc=9.89
+[2026-04-11 13:33:59] [INFO ] acc=(1.67,8.73,4.12) gyro=(0.07,0.02,0.02) sound=0.00 totalAcc=9.80
+[2026-04-11 13:33:59] [INFO ] acc=(1.49,8.80,4.09) gyro=(0.05,-0.00,-0.02) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:59] [INFO ] acc=(1.34,8.77,4.25) gyro=(-0.01,0.01,0.02) sound=0.00 totalAcc=9.83
+[2026-04-11 13:33:59] [INFO ] acc=(1.69,8.69,4.38) gyro=(-0.04,-0.02,0.07) sound=0.00 totalAcc=9.88
+[2026-04-11 13:33:59] [INFO ] acc=(1.67,8.74,4.28) gyro=(0.02,-0.02,-0.00) sound=0.00 totalAcc=9.88
+[2026-04-11 13:33:59] [INFO ] acc=(1.59,8.74,4.26) gyro=(0.01,-0.01,-0.04) sound=0.00 totalAcc=9.86
+[2026-04-11 13:33:59] [INFO ] acc=(1.43,8.77,4.18) gyro=(0.03,-0.01,-0.04) sound=0.00 totalAcc=9.82
+[2026-04-11 13:33:59] [INFO ] acc=(1.32,8.77,4.08) gyro=(-0.00,-0.02,-0.04) sound=0.00 totalAcc=9.76
+[2026-04-11 13:33:59] [INFO ] acc=(1.33,8.74,4.23) gyro=(-0.01,-0.01,-0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:00] [INFO ] acc=(1.40,8.75,4.05) gyro=(-0.01,-0.01,0.00) sound=0.00 totalAcc=9.74
+[2026-04-11 13:34:00] [INFO ] acc=(1.64,8.78,4.15) gyro=(0.00,0.02,0.05) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:00] [INFO ] acc=(1.59,8.72,4.32) gyro=(-0.00,0.02,0.03) sound=0.00 totalAcc=9.86
+[2026-04-11 13:34:00] [INFO ] acc=(1.53,8.75,4.47) gyro=(0.10,0.06,0.01) sound=0.00 totalAcc=9.94
+[2026-04-11 13:34:00] [INFO ] acc=(1.52,8.96,3.44) gyro=(0.34,0.22,0.03) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:00] [INFO ] acc=(1.40,8.85,4.07) gyro=(-0.05,-0.03,-0.01) sound=0.00 totalAcc=9.85
+[2026-04-11 13:34:00] [INFO ] acc=(1.49,8.89,3.90) gyro=(-0.02,-0.04,-0.01) sound=0.00 totalAcc=9.82
+[2026-04-11 13:34:00] [INFO ] acc=(1.43,8.84,3.83) gyro=(-0.05,-0.02,-0.02) sound=0.00 totalAcc=9.74
+[2026-04-11 13:34:00] [INFO ] acc=(1.59,8.83,4.09) gyro=(-0.08,-0.05,-0.01) sound=0.00 totalAcc=9.86
+[2026-04-11 13:34:01] [INFO ] acc=(1.51,8.82,3.87) gyro=(-0.03,-0.05,-0.02) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:01] [INFO ] acc=(1.39,8.86,4.18) gyro=(-0.03,-0.02,-0.03) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:01] [INFO ] acc=(1.39,8.83,4.09) gyro=(-0.02,-0.03,-0.02) sound=0.00 totalAcc=9.83
+[2026-04-11 13:34:01] [INFO ] acc=(1.47,8.84,4.13) gyro=(0.00,-0.03,-0.00) sound=0.00 totalAcc=9.87
+[2026-04-11 13:34:01] [INFO ] acc=(1.58,8.79,4.18) gyro=(-0.03,-0.00,0.02) sound=0.00 totalAcc=9.86
+[2026-04-11 13:34:01] [INFO ] acc=(1.54,8.85,4.13) gyro=(-0.01,0.01,0.00) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:01] [INFO ] acc=(1.47,8.81,4.13) gyro=(0.01,0.01,0.00) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:01] [INFO ] acc=(1.53,8.82,4.04) gyro=(0.01,0.02,0.01) sound=0.00 totalAcc=9.82
+[2026-04-11 13:34:01] [INFO ] acc=(1.53,8.83,4.20) gyro=(0.01,0.01,0.00) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:01] [INFO ] ♥ Heartbeat #1290 | State: MONITORING
+[2026-04-11 13:34:01] [INFO ] acc=(1.53,8.84,4.18) gyro=(-0.01,0.02,0.00) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:01] [INFO ] acc=(3.20,9.38,2.66) gyro=(-0.15,-0.11,-0.02) sound=0.00 totalAcc=10.26
+[2026-04-11 13:34:02] [INFO ] acc=(1.21,7.31,1.55) gyro=(-1.29,-0.16,-0.16) sound=0.00 totalAcc=7.57
+[2026-04-11 13:34:02] [INFO ] acc=(-1.10,3.32,9.56) gyro=(-4.22,0.25,0.29) sound=0.00 totalAcc=10.18
+[2026-04-11 13:34:02] [ALERT] ⚠️  ALERT triggered. STATE: MONITORING → ALERT  [acc=10.18 gyro=4.23 sound=0.00]
+[2026-04-11 13:34:02] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:02] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:34:02] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:34:02] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:34:02] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:34:02] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:02] [INFO ] acc=(1.28,2.49,11.50) gyro=(-3.28,0.35,0.35) sound=0.00 totalAcc=11.84
+[2026-04-11 13:34:02] [INFO ] acc=(1.64,1.92,9.99) gyro=(-1.05,0.00,0.29) sound=0.00 totalAcc=10.30
+[2026-04-11 13:34:02] [INFO ] System nominal. STATE: ALERT → MONITORING  [acc=10.30 gyro=1.09 sound=0.00]
+[2026-04-11 13:34:02] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:02] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:02] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:02] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:02] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:02] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:02] [INFO ] acc=(1.12,1.54,10.17) gyro=(-0.51,0.35,0.44) sound=0.00 totalAcc=10.35
+[2026-04-11 13:34:02] [INFO ] acc=(1.17,1.58,9.36) gyro=(-0.16,0.09,0.06) sound=0.00 totalAcc=9.56
+[2026-04-11 13:34:02] [INFO ] acc=(1.36,1.33,9.64) gyro=(0.02,0.04,0.07) sound=0.00 totalAcc=9.83
+[2026-04-11 13:34:02] [INFO ] acc=(1.30,1.11,9.86) gyro=(-0.07,0.01,0.02) sound=0.00 totalAcc=10.01
+[2026-04-11 13:34:02] [INFO ] acc=(0.95,1.10,10.26) gyro=(0.01,0.06,-0.04) sound=0.00 totalAcc=10.36
+[2026-04-11 13:34:02] [INFO ] acc=(1.03,1.46,12.26) gyro=(0.36,0.13,0.02) sound=0.00 totalAcc=12.39
+[2026-04-11 13:34:02] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=12.39 gyro=0.39 sound=0.00]
+[2026-04-11 13:34:03] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:03] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:03] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:03] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:03] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:03] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:03] [INFO ] acc=(0.52,2.49,11.97) gyro=(2.16,0.17,-0.14) sound=0.00 totalAcc=12.24
+[2026-04-11 13:34:03] [INFO ] acc=(1.00,6.88,6.09) gyro=(3.81,-0.07,-0.18) sound=0.00 totalAcc=9.24
+[2026-04-11 13:34:03] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=9.24 gyro=3.82 sound=0.00]
+[2026-04-11 13:34:03] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:03] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:34:03] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:34:03] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:34:03] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:34:03] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:03] [INFO ] acc=(0.86,8.32,4.29) gyro=(2.58,-0.37,-0.44) sound=0.00 totalAcc=9.40
+[2026-04-11 13:34:03] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=9.40 gyro=2.64 sound=0.00]
+[2026-04-11 13:34:03] [INFO ] acc=(0.27,8.92,2.99) gyro=(1.46,-0.07,-0.47) sound=0.00 totalAcc=9.41
+[2026-04-11 13:34:03] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:03] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:03] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:03] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:03] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:03] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:03] [INFO ] acc=(0.02,7.18,1.67) gyro=(0.76,-0.20,-0.39) sound=0.00 totalAcc=7.37
+[2026-04-11 13:34:03] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=7.37 gyro=0.88 sound=0.00]
+[2026-04-11 13:34:03] [INFO ] acc=(-9.16,9.12,0.76) gyro=(0.42,-0.08,-0.50) sound=0.00 totalAcc=12.95
+[2026-04-11 13:34:03] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=12.95 gyro=0.66 sound=0.00]
+[2026-04-11 13:34:03] [INFO ] acc=(-6.27,8.60,1.21) gyro=(0.07,0.77,0.81) sound=0.00 totalAcc=10.71
+[2026-04-11 13:34:03] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=10.71 gyro=1.12 sound=0.00]
+[2026-04-11 13:34:03] [INFO ] acc=(5.97,6.06,5.68) gyro=(-0.55,1.97,3.10) sound=0.00 totalAcc=10.23
+[2026-04-11 13:34:03] [ALERT] ⚠️  ALERT triggered. STATE: MONITORING → ALERT  [acc=10.23 gyro=3.71 sound=0.00]
+[2026-04-11 13:34:03] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:03] [ALERT] ║  🟠 VIRTUAL MACHINE: ALERT MODE       ║
+[2026-04-11 13:34:03] [ALERT] ║  Motor A: OFF  Motor B: OFF           ║
+[2026-04-11 13:34:03] [ALERT] ║  Motor C: 20%  Motor D: 20%           ║
+[2026-04-11 13:34:03] [ALERT] ║  Pump: OFF  Valve: CLOSING            ║
+[2026-04-11 13:34:03] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:04] [INFO ] acc=(16.04,2.77,10.04) gyro=(-0.22,2.22,1.93) sound=0.00 totalAcc=19.13
+[2026-04-11 13:34:04] [INFO ] acc=(11.97,1.55,7.42) gyro=(-0.46,-0.86,-1.03) sound=0.00 totalAcc=14.17
+[2026-04-11 13:34:04] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=14.17 gyro=1.42 sound=0.00]
+[2026-04-11 13:34:04] [INFO ] acc=(-4.76,5.77,6.33) gyro=(-0.46,-3.10,-4.49) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:04] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=9.80 gyro=5.47 sound=0.00]
+[2026-04-11 13:34:04] [INFO ] acc=(-8.81,8.91,9.09) gyro=(-0.78,-1.65,-2.32) sound=0.00 totalAcc=15.48
+[2026-04-11 13:34:04] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=15.48 gyro=2.95 sound=0.00]
+[2026-04-11 13:34:04] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:04] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:04] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:04] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:04] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:04] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:04] [INFO ] acc=(-3.89,7.71,6.44) gyro=(-0.29,-2.58,-0.79) sound=0.00 totalAcc=10.77
+[2026-04-11 13:34:04] [INFO ] acc=(-1.25,7.66,4.82) gyro=(0.10,-0.69,-0.16) sound=0.00 totalAcc=9.14
+[2026-04-11 13:34:04] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.14 gyro=0.72 sound=0.00]
+[2026-04-11 13:34:04] [INFO ] acc=(-2.14,7.92,3.83) gyro=(0.21,0.33,-0.26) sound=0.00 totalAcc=9.06
+[2026-04-11 13:34:04] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:04] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:04] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:04] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:04] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:04] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:04] [INFO ] acc=(-0.69,7.97,6.85) gyro=(-0.58,-0.33,0.21) sound=0.00 totalAcc=10.53
+[2026-04-11 13:34:04] [INFO ] acc=(0.01,7.98,6.31) gyro=(-0.35,-0.30,0.25) sound=0.00 totalAcc=10.17
+[2026-04-11 13:34:04] [INFO ] acc=(-0.09,7.40,6.80) gyro=(-0.20,0.19,0.26) sound=0.00 totalAcc=10.05
+[2026-04-11 13:34:04] [INFO ] acc=(0.38,7.67,6.61) gyro=(0.03,0.69,0.21) sound=0.00 totalAcc=10.13
+[2026-04-11 13:34:04] [INFO ] acc=(0.65,7.25,5.88) gyro=(0.20,0.43,0.19) sound=0.00 totalAcc=9.36
+[2026-04-11 13:34:05] [INFO ] acc=(0.47,7.79,5.44) gyro=(0.34,0.19,0.24) sound=0.00 totalAcc=9.51
+[2026-04-11 13:34:05] [INFO ] acc=(0.44,7.83,6.56) gyro=(-0.09,0.11,0.34) sound=0.00 totalAcc=10.23
+[2026-04-11 13:34:05] [INFO ] acc=(0.02,7.76,6.14) gyro=(-0.58,0.31,0.50) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:05] [INFO ] acc=(2.97,5.20,10.42) gyro=(-2.09,-0.34,0.94) sound=0.00 totalAcc=12.02
+[2026-04-11 13:34:05] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=12.02 gyro=2.31 sound=0.00]
+[2026-04-11 13:34:05] [INFO ] acc=(2.66,5.51,6.99) gyro=(-0.14,0.11,0.89) sound=0.00 totalAcc=9.28
+[2026-04-11 13:34:05] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.28 gyro=0.90 sound=0.00]
+[2026-04-11 13:34:05] [INFO ] acc=(1.73,6.97,6.03) gyro=(0.66,0.47,0.33) sound=0.00 totalAcc=9.38
+[2026-04-11 13:34:05] [INFO ] acc=(1.80,6.73,6.69) gyro=(0.11,0.29,0.30) sound=0.00 totalAcc=9.66
+[2026-04-11 13:34:05] [INFO ] acc=(1.97,6.50,6.54) gyro=(0.11,-0.04,-0.02) sound=0.00 totalAcc=9.43
+[2026-04-11 13:34:05] [INFO ] acc=(2.13,6.07,7.44) gyro=(-0.11,-0.04,0.05) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:05] [INFO ] acc=(2.12,5.89,7.85) gyro=(-0.11,-0.02,0.05) sound=0.00 totalAcc=10.04
+[2026-04-11 13:34:06] [INFO ] acc=(2.17,6.09,7.25) gyro=(-0.03,0.02,0.03) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:06] [INFO ] acc=(2.04,6.11,7.61) gyro=(-0.05,-0.01,-0.02) sound=0.00 totalAcc=9.97
+[2026-04-11 13:34:06] [INFO ] acc=(2.07,6.27,7.47) gyro=(-0.00,-0.00,-0.03) sound=0.00 totalAcc=9.97
+[2026-04-11 13:34:06] [INFO ] acc=(2.31,5.95,7.40) gyro=(-0.07,-0.04,-0.01) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:06] [INFO ] acc=(2.20,5.65,7.64) gyro=(-0.09,-0.07,-0.06) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:06] [INFO ] acc=(2.74,6.77,5.86) gyro=(0.16,-0.15,-0.13) sound=0.00 totalAcc=9.36
+[2026-04-11 13:34:06] [INFO ] acc=(2.12,6.79,6.85) gyro=(0.28,-0.38,-0.54) sound=0.00 totalAcc=9.88
+[2026-04-11 13:34:06] [INFO ] acc=(0.82,7.01,7.33) gyro=(0.80,-0.61,-1.01) sound=0.00 totalAcc=10.18
+[2026-04-11 13:34:06] [INFO ] acc=(0.69,7.48,5.99) gyro=(0.75,0.16,-0.54) sound=0.00 totalAcc=9.61
+[2026-04-11 13:34:06] [INFO ] acc=(0.65,7.82,5.63) gyro=(0.22,0.02,-0.26) sound=0.00 totalAcc=9.66
+[2026-04-11 13:34:07] [INFO ] acc=(0.39,7.97,5.94) gyro=(0.04,0.18,-0.02) sound=0.00 totalAcc=9.95
+[2026-04-11 13:34:07] [INFO ] acc=(0.27,8.25,5.15) gyro=(0.39,0.23,0.10) sound=0.00 totalAcc=9.73
+[2026-04-11 13:34:07] [INFO ] acc=(0.93,8.25,4.76) gyro=(0.33,0.14,0.18) sound=0.00 totalAcc=9.57
+[2026-04-11 13:34:07] [INFO ] acc=(0.63,8.21,5.62) gyro=(0.10,0.22,0.05) sound=0.00 totalAcc=9.97
+[2026-04-11 13:34:07] [INFO ] acc=(0.55,8.40,5.25) gyro=(0.06,0.14,0.09) sound=0.00 totalAcc=9.92
+[2026-04-11 13:34:07] [INFO ] acc=(0.75,8.68,4.30) gyro=(0.16,0.08,0.11) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:07] [INFO ] acc=(0.81,8.55,4.56) gyro=(0.09,0.21,0.09) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:07] [INFO ] acc=(0.65,8.46,5.23) gyro=(-0.08,0.18,0.05) sound=0.00 totalAcc=9.97
+[2026-04-11 13:34:07] [INFO ] acc=(0.60,8.72,4.18) gyro=(0.15,0.04,0.04) sound=0.00 totalAcc=9.68
+[2026-04-11 13:34:07] [INFO ] acc=(0.51,8.98,3.66) gyro=(0.11,0.13,0.05) sound=0.00 totalAcc=9.71
+[2026-04-11 13:34:08] [INFO ] acc=(1.07,8.69,3.87) gyro=(0.02,0.09,0.15) sound=0.00 totalAcc=9.57
+[2026-04-11 13:34:08] [INFO ] acc=(0.91,8.47,5.05) gyro=(0.05,0.08,-0.03) sound=0.00 totalAcc=9.91
+[2026-04-11 13:34:08] [INFO ] acc=(0.49,8.61,5.06) gyro=(0.10,0.02,-0.15) sound=0.00 totalAcc=10.00
+[2026-04-11 13:34:08] [INFO ] acc=(0.38,8.71,4.53) gyro=(0.16,0.05,-0.08) sound=0.00 totalAcc=9.83
+[2026-04-11 13:34:08] [INFO ] acc=(0.45,8.73,4.41) gyro=(0.18,0.13,0.02) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:08] [INFO ] acc=(0.42,8.81,4.22) gyro=(0.02,-0.04,-0.05) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:08] [INFO ] acc=(0.34,8.75,4.46) gyro=(-0.09,-0.08,-0.08) sound=0.00 totalAcc=9.83
+[2026-04-11 13:34:08] [INFO ] acc=(0.32,8.75,4.24) gyro=(-0.06,-0.07,-0.02) sound=0.00 totalAcc=9.73
+[2026-04-11 13:34:08] [INFO ] acc=(0.40,8.66,4.66) gyro=(-0.15,-0.03,0.02) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:08] [INFO ] acc=(0.38,8.66,4.55) gyro=(-0.04,0.03,-0.01) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:09] [INFO ] acc=(0.45,8.66,4.57) gyro=(-0.06,0.00,0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:09] [INFO ] acc=(0.36,8.63,4.79) gyro=(-0.03,0.01,0.04) sound=0.00 totalAcc=9.88
+[2026-04-11 13:34:09] [INFO ] acc=(0.63,8.58,4.79) gyro=(-0.05,0.01,0.08) sound=0.00 totalAcc=9.85
+[2026-04-11 13:34:09] [INFO ] acc=(0.78,8.57,4.54) gyro=(0.01,0.02,0.05) sound=0.00 totalAcc=9.73
+[2026-04-11 13:34:09] [INFO ] acc=(0.62,8.56,4.64) gyro=(-0.03,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:09] [INFO ] acc=(0.63,8.56,4.87) gyro=(-0.01,-0.04,0.01) sound=0.00 totalAcc=9.87
+[2026-04-11 13:34:09] [INFO ] acc=(0.65,8.60,4.74) gyro=(0.03,-0.01,0.01) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:10] [INFO ] acc=(0.61,8.61,4.85) gyro=(-0.01,-0.03,-0.02) sound=0.00 totalAcc=9.90
+[2026-04-11 13:34:10] [INFO ] acc=(0.66,8.66,4.47) gyro=(0.01,0.03,0.01) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:10] [INFO ] acc=(0.78,8.51,4.79) gyro=(-0.02,0.03,0.01) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:10] [INFO ] acc=(0.58,8.61,4.64) gyro=(-0.02,0.01,-0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:10] [INFO ] acc=(0.48,8.58,4.80) gyro=(0.00,0.04,-0.03) sound=0.00 totalAcc=9.85
+[2026-04-11 13:34:10] [INFO ] acc=(0.56,8.49,4.98) gyro=(-0.04,0.02,0.02) sound=0.00 totalAcc=9.86
+[2026-04-11 13:34:10] [INFO ] acc=(0.62,8.63,4.43) gyro=(-0.01,-0.00,-0.01) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:10] [INFO ] acc=(0.06,8.63,3.49) gyro=(-0.02,-0.01,0.00) sound=0.00 totalAcc=9.31
+[2026-04-11 13:34:10] [INFO ] acc=(-2.84,6.53,1.84) gyro=(-0.60,0.81,0.36) sound=0.00 totalAcc=7.36
+[2026-04-11 13:34:10] [INFO ] acc=(-3.53,4.69,6.49) gyro=(-1.87,1.82,0.90) sound=0.00 totalAcc=8.75
+[2026-04-11 13:34:10] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=8.75 gyro=2.76 sound=0.00]
+[2026-04-11 13:34:10] [INFO ] acc=(0.58,4.30,9.48) gyro=(-1.29,1.81,1.14) sound=0.00 totalAcc=10.42
+[2026-04-11 13:34:10] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:10] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:10] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:10] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:10] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:10] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:10] [INFO ] acc=(2.32,5.00,9.13) gyro=(-1.23,0.22,0.01) sound=0.00 totalAcc=10.67
+[2026-04-11 13:34:10] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=10.67 gyro=1.25 sound=0.00]
+[2026-04-11 13:34:10] [INFO ] acc=(-0.33,3.47,10.14) gyro=(-1.64,-0.69,-0.35) sound=0.00 totalAcc=10.73
+[2026-04-11 13:34:10] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=10.73 gyro=1.81 sound=0.00]
+[2026-04-11 13:34:11] [INFO ] acc=(-0.13,2.58,10.12) gyro=(-0.81,0.08,-0.27) sound=0.00 totalAcc=10.45
+[2026-04-11 13:34:11] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=10.45 gyro=0.86 sound=0.00]
+[2026-04-11 13:34:11] [INFO ] acc=(-0.58,1.70,9.55) gyro=(-0.46,0.20,-0.30) sound=0.00 totalAcc=9.72
+[2026-04-11 13:34:11] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:11] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:11] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:11] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:11] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:11] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:11] [INFO ] acc=(-1.20,2.35,9.89) gyro=(-0.20,0.44,-0.61) sound=0.00 totalAcc=10.23
+[2026-04-11 13:34:11] [INFO ] acc=(-0.97,1.67,10.69) gyro=(-0.72,-0.00,-0.02) sound=0.00 totalAcc=10.87
+[2026-04-11 13:34:11] [INFO ] acc=(-4.00,1.92,8.48) gyro=(0.05,-0.85,-0.38) sound=0.00 totalAcc=9.57
+[2026-04-11 13:34:11] [INFO ] acc=(-1.58,0.20,8.25) gyro=(-0.29,1.51,-0.47) sound=0.00 totalAcc=8.40
+[2026-04-11 13:34:11] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=8.40 gyro=1.61 sound=0.00]
+[2026-04-11 13:34:11] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:11] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:11] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:11] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:11] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:11] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:11] [INFO ] acc=(-2.04,-0.80,10.09) gyro=(-0.22,-0.13,-0.78) sound=0.00 totalAcc=10.33
+[2026-04-11 13:34:11] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=10.33 gyro=0.82 sound=0.00]
+[2026-04-11 13:34:11] [INFO ] acc=(-1.46,-1.04,11.15) gyro=(-1.49,0.81,-0.26) sound=0.00 totalAcc=11.30
+[2026-04-11 13:34:11] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=11.30 gyro=1.71 sound=0.00]
+[2026-04-11 13:34:11] [INFO ] ♥ Heartbeat #1300 | State: WARNING
+[2026-04-11 13:34:11] [INFO ] acc=(-2.69,-1.19,7.83) gyro=(-0.69,0.17,-0.29) sound=0.00 totalAcc=8.36
+[2026-04-11 13:34:11] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=8.36 gyro=0.77 sound=0.00]
+[2026-04-11 13:34:11] [INFO ] acc=(-1.86,-1.38,8.38) gyro=(0.07,-0.32,0.29) sound=0.00 totalAcc=8.70
+[2026-04-11 13:34:12] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:12] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:12] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:12] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:12] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:12] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:12] [INFO ] acc=(-0.62,-0.94,6.84) gyro=(0.52,-0.52,0.54) sound=0.00 totalAcc=6.93
+[2026-04-11 13:34:12] [INFO ] acc=(0.68,0.28,10.02) gyro=(0.67,-1.12,0.25) sound=0.00 totalAcc=10.05
+[2026-04-11 13:34:12] [INFO ] acc=(1.57,0.07,9.39) gyro=(0.25,-0.13,-0.02) sound=0.00 totalAcc=9.52
+[2026-04-11 13:34:12] [INFO ] acc=(3.14,0.80,11.19) gyro=(1.05,-1.18,0.27) sound=0.00 totalAcc=11.65
+[2026-04-11 13:34:12] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=11.65 gyro=1.60 sound=0.00]
+[2026-04-11 13:34:12] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:12] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:12] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:12] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:12] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:12] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:12] [INFO ] acc=(2.76,0.85,9.26) gyro=(-0.36,0.07,-0.45) sound=0.00 totalAcc=9.70
+[2026-04-11 13:34:12] [INFO ] System nominal. STATE: WARNING → MONITORING  [acc=9.70 gyro=0.58 sound=0.00]
+[2026-04-11 13:34:12] [INFO ] acc=(2.41,-0.56,9.43) gyro=(-0.00,0.20,0.38) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:12] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:12] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:12] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:12] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:12] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:12] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:12] [INFO ] acc=(1.47,0.72,9.28) gyro=(0.07,0.46,0.35) sound=0.00 totalAcc=9.42
+[2026-04-11 13:34:12] [INFO ] acc=(0.17,0.63,9.83) gyro=(-0.05,1.21,-0.60) sound=0.00 totalAcc=9.85
+[2026-04-11 13:34:12] [INFO ] acc=(0.36,0.57,9.86) gyro=(-0.01,0.11,0.03) sound=0.00 totalAcc=9.89
+[2026-04-11 13:34:12] [INFO ] acc=(0.21,0.15,9.64) gyro=(0.00,0.01,-0.14) sound=0.00 totalAcc=9.64
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.43,9.74) gyro=(0.02,0.07,-0.19) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:13] [INFO ] acc=(0.05,0.54,9.76) gyro=(-0.01,0.00,-0.02) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:13] [INFO ] acc=(0.08,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:13] [INFO ] acc=(0.06,0.54,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.52,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.52,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:13] [INFO ] acc=(0.08,0.56,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:13] [INFO ] acc=(0.07,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:14] [INFO ] acc=(0.08,0.54,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:14] [INFO ] acc=(0.08,0.52,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:14] [INFO ] acc=(0.07,0.53,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:14] [INFO ] acc=(0.08,0.49,9.80) gyro=(-0.01,0.01,-0.00) sound=0.00 totalAcc=9.81
+[2026-04-11 13:34:14] [INFO ] acc=(-0.03,0.86,8.71) gyro=(0.01,-0.02,-0.00) sound=0.00 totalAcc=8.75
+[2026-04-11 13:34:14] [INFO ] acc=(-0.34,0.57,9.39) gyro=(0.22,0.28,-0.70) sound=0.00 totalAcc=9.42
+[2026-04-11 13:34:14] [INFO ] acc=(-0.12,0.57,9.48) gyro=(0.02,-0.03,-0.00) sound=0.00 totalAcc=9.49
+[2026-04-11 13:34:14] [INFO ] acc=(-0.02,0.55,9.70) gyro=(-0.01,0.01,-0.00) sound=0.00 totalAcc=9.71
+[2026-04-11 13:34:14] [INFO ] acc=(-0.04,0.54,9.73) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:14] [INFO ] acc=(-0.06,0.55,9.74) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.53,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:15] [INFO ] acc=(-0.04,0.55,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.53,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.52,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:15] [INFO ] acc=(-0.06,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.53,9.75) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:15] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:15] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:15] [INFO ] acc=(-0.04,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:16] [INFO ] acc=(-0.06,0.51,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.06,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:16] [INFO ] acc=(-0.05,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:16] [INFO ] acc=(-0.04,0.52,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.06,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:16] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.07,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:16] [INFO ] acc=(-0.03,0.53,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:17] [INFO ] acc=(-0.04,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:17] [INFO ] acc=(-0.03,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:17] [INFO ] acc=(-0.06,0.54,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:17] [INFO ] acc=(-0.03,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:17] [INFO ] acc=(-0.05,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:17] [INFO ] acc=(-0.06,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:17] [INFO ] acc=(-0.05,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:17] [INFO ] acc=(-0.05,0.53,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:17] [INFO ] acc=(-0.04,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:18] [INFO ] acc=(-0.06,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.07,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.04,0.53,9.74) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:18] [INFO ] acc=(-0.06,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:18] [INFO ] acc=(-0.05,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.04,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.05,0.52,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.05,0.52,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:18] [INFO ] acc=(-0.04,0.51,9.75) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:18] [INFO ] acc=(-0.04,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:19] [INFO ] acc=(-0.07,0.54,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:19] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:19] [INFO ] acc=(-0.06,0.51,9.76) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:19] [INFO ] acc=(-0.05,0.54,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:19] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:19] [INFO ] acc=(-0.05,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:19] [INFO ] acc=(-0.05,0.53,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.53,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.52,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.53,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:20] [INFO ] acc=(-0.04,0.53,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.52,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:20] [INFO ] acc=(-0.05,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.52,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.53,9.75) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:20] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:20] [INFO ] acc=(-0.06,0.52,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:20] [INFO ] acc=(-0.05,0.54,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:20] [INFO ] acc=(-0.04,0.53,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:20] [INFO ] acc=(-0.05,0.52,9.77) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:21] [INFO ] acc=(-0.06,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:21] [INFO ] acc=(-0.04,0.54,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:21] [INFO ] acc=(-0.06,0.51,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:21] [INFO ] acc=(-0.05,0.54,9.75) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:21] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:21] [INFO ] acc=(-0.05,0.53,9.73) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:21] [INFO ] acc=(-0.04,0.53,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:21] [INFO ] acc=(-0.04,0.54,9.76) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:21] [INFO ] acc=(-0.04,0.54,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:21] [INFO ] ♥ Heartbeat #1310 | State: MONITORING
+[2026-04-11 13:34:21] [INFO ] acc=(-0.06,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.06,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.05,0.54,9.74) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:22] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.05,0.54,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.07,0.53,9.74) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:22] [INFO ] acc=(-0.05,0.53,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:22] [INFO ] acc=(-0.04,0.52,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:22] [INFO ] acc=(-0.06,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:23] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:23] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:23] [INFO ] acc=(-0.05,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:23] [INFO ] acc=(-0.04,0.53,9.74) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:23] [INFO ] acc=(-0.05,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:23] [INFO ] acc=(-0.05,0.52,9.76) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:23] [INFO ] acc=(-0.07,0.54,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:23] [INFO ] acc=(-0.03,0.54,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:23] [INFO ] acc=(-0.04,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:23] [INFO ] acc=(-0.04,0.54,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:23] [INFO ] acc=(-0.06,0.52,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.54,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:24] [INFO ] acc=(-0.06,0.54,9.74) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.54,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:24] [INFO ] acc=(-0.06,0.52,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:24] [INFO ] acc=(-0.04,0.52,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.54,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:24] [INFO ] acc=(-0.04,0.51,9.76) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:24] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:25] [INFO ] acc=(-0.04,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:25] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:25] [INFO ] acc=(-0.06,0.52,9.74) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:25] [INFO ] acc=(-0.06,0.52,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:25] [INFO ] acc=(-0.05,0.55,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:25] [INFO ] acc=(-0.04,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:25] [INFO ] acc=(-0.06,0.52,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:25] [INFO ] acc=(-0.06,0.51,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:25] [INFO ] acc=(-0.03,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:26] [INFO ] acc=(-0.06,0.54,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:26] [INFO ] acc=(-0.04,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:26] [INFO ] acc=(-0.05,0.51,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:26] [INFO ] acc=(-0.05,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:26] [INFO ] acc=(-0.06,0.52,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:26] [INFO ] acc=(-0.04,0.53,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:26] [INFO ] acc=(-0.04,0.52,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:26] [INFO ] acc=(-0.04,0.53,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:26] [INFO ] acc=(-0.06,0.54,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:26] [INFO ] acc=(-0.05,0.52,9.74) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:26] [INFO ] acc=(-0.05,0.52,9.76) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.54,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.54,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:27] [INFO ] acc=(-0.04,0.54,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.55,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.53,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.52,9.76) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:27] [INFO ] acc=(-0.06,0.54,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:27] [INFO ] acc=(-0.05,0.55,9.76) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:28] [INFO ] acc=(-0.04,0.53,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.02,0.53,9.74) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:28] [INFO ] acc=(-0.04,0.55,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.07,0.52,9.77) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.07,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.06,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:28] [INFO ] acc=(-0.05,0.52,9.77) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:28] [INFO ] acc=(-0.03,0.55,9.74) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:29] [INFO ] acc=(-0.05,0.53,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:29] [INFO ] acc=(-0.03,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:29] [INFO ] acc=(-0.04,0.52,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:29] [INFO ] acc=(-0.04,0.52,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:29] [INFO ] acc=(-0.05,0.54,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:29] [INFO ] acc=(-0.05,0.54,9.77) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:29] [INFO ] acc=(-0.07,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:29] [INFO ] acc=(-0.06,0.54,9.75) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:29] [INFO ] acc=(-0.05,0.53,9.74) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:29] [INFO ] acc=(-0.06,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:29] [INFO ] acc=(-0.05,0.51,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:30] [INFO ] acc=(-0.06,0.53,9.78) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:30] [INFO ] acc=(-0.07,0.53,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:30] [INFO ] acc=(-0.04,0.52,9.75) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:30] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:30] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:30] [INFO ] acc=(-0.05,0.54,9.77) gyro=(-0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:30] [INFO ] acc=(-0.05,0.52,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:30] [INFO ] acc=(-0.07,0.52,9.79) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:30] [INFO ] acc=(-0.05,0.53,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:30] [INFO ] acc=(-0.04,0.53,9.76) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:31] [INFO ] acc=(-0.04,0.54,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:31] [INFO ] acc=(-0.05,0.55,9.77) gyro=(0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:31] [INFO ] acc=(-0.04,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:31] [INFO ] acc=(-0.06,0.53,9.78) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:31] [INFO ] acc=(-0.05,0.52,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:31] [INFO ] acc=(-0.03,0.54,9.77) gyro=(0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:31] [INFO ] acc=(-0.05,0.52,9.75) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:31] [INFO ] ♥ Heartbeat #1320 | State: MONITORING
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.03,0.53,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.54,9.76) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:32] [INFO ] acc=(-0.03,0.55,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:32] [INFO ] acc=(-0.05,0.53,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:32] [INFO ] acc=(-0.05,0.51,9.78) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.53,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.54,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.55,9.77) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:32] [INFO ] acc=(-0.05,0.53,9.77) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.05,0.51,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:32] [INFO ] acc=(-0.04,0.54,9.75) gyro=(-0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:33] [INFO ] acc=(-0.04,0.53,9.75) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.53,9.75) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.52,9.77) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:33] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:33] [INFO ] acc=(-0.05,0.54,9.78) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.54,9.74) gyro=(0.00,0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:33] [INFO ] acc=(-0.03,0.55,9.77) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.55,9.75) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:33] [INFO ] acc=(-0.06,0.52,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:34] [INFO ] acc=(-0.05,0.54,9.78) gyro=(-0.00,0.00,0.00) sound=0.00 totalAcc=9.79
+[2026-04-11 13:34:34] [INFO ] acc=(-0.06,0.55,9.77) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.78
+[2026-04-11 13:34:34] [INFO ] acc=(-0.05,0.53,9.76) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:34] [INFO ] acc=(-0.04,0.52,9.78) gyro=(0.00,-0.00,0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:34] [INFO ] acc=(-0.06,0.54,9.78) gyro=(-0.00,0.00,-0.00) sound=0.00 totalAcc=9.80
+[2026-04-11 13:34:34] [INFO ] acc=(0.08,0.41,10.17) gyro=(0.00,-0.00,-0.00) sound=0.00 totalAcc=10.18
+[2026-04-11 13:34:34] [INFO ] acc=(-0.43,-0.73,9.68) gyro=(-0.01,0.00,0.44) sound=0.00 totalAcc=9.71
+[2026-04-11 13:34:34] [INFO ] acc=(-0.86,1.35,10.16) gyro=(0.03,-0.02,1.13) sound=0.00 totalAcc=10.28
+[2026-04-11 13:34:34] [INFO ] acc=(0.40,0.01,12.43) gyro=(0.23,0.29,0.81) sound=0.00 totalAcc=12.44
+[2026-04-11 13:34:34] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=12.44 gyro=0.89 sound=0.00]
+[2026-04-11 13:34:34] [INFO ] acc=(5.55,1.22,12.46) gyro=(3.33,-0.84,1.12) sound=0.00 totalAcc=13.70
+[2026-04-11 13:34:34] [ALERT] ⚠️  ALERT triggered. STATE: WARNING → ALERT  [acc=13.70 gyro=3.61 sound=0.00]
+[2026-04-11 13:34:35] [INFO ] acc=(10.28,3.54,10.61) gyro=(2.37,-0.54,-1.02) sound=0.00 totalAcc=15.19
+[2026-04-11 13:34:35] [WARN ] WARNING threshold reached. STATE: ALERT → WARNING  [acc=15.19 gyro=2.64 sound=0.00]
+[2026-04-11 13:34:35] [WARN ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:35] [WARN ] ║  🟡 VIRTUAL MACHINE: CAUTION          ║
+[2026-04-11 13:34:35] [WARN ] ║  Motor A: 50%  Motor B: 50%           ║
+[2026-04-11 13:34:35] [WARN ] ║  Motor C: 50%  Motor D: 50%           ║
+[2026-04-11 13:34:35] [WARN ] ║  Pump: LOW  Valve: THROTTLED          ║
+[2026-04-11 13:34:35] [WARN ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:35] [INFO ] acc=(-24.69,6.62,-1.26) gyro=(2.56,-1.86,-3.50) sound=0.00 totalAcc=25.59
+[2026-04-11 13:34:35] [ALERT] 🚨 EMERGENCY STOP! STATE: WARNING → EMERGENCY_STOP  [acc=25.59 gyro=4.72 sound=0.00]
+[2026-04-11 13:34:35] [ALERT] All virtual motors HALTED.
+[2026-04-11 13:34:35] [INFO ] acc=(16.85,2.45,9.44) gyro=(1.21,0.11,1.90) sound=0.00 totalAcc=19.47
+[2026-04-11 13:34:35] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:35] [ALERT] ║  🔴 EMERGENCY STOP — ALL HALTED       ║
+[2026-04-11 13:34:35] [ALERT] ║  Motor A: KILL Motor B: KILL          ║
+[2026-04-11 13:34:35] [ALERT] ║  Motor C: KILL Motor D: KILL          ║
+[2026-04-11 13:34:35] [ALERT] ║  Pump: KILL  Valve: SEALED            ║
+[2026-04-11 13:34:35] [ALERT] ║  ⚡ SAFETY RELAY TRIGGERED            ║
+[2026-04-11 13:34:35] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:35] [INFO ] acc=(-19.33,3.33,1.23) gyro=(-0.40,-0.46,0.02) sound=0.00 totalAcc=19.65
+[2026-04-11 13:34:35] [INFO ] acc=(-6.92,5.22,7.69) gyro=(2.63,-1.99,-0.89) sound=0.00 totalAcc=11.59
+[2026-04-11 13:34:35] [INFO ] acc=(16.80,9.21,12.20) gyro=(-1.66,2.16,1.03) sound=0.00 totalAcc=22.71
+[2026-04-11 13:34:35] [INFO ] acc=(-25.99,6.09,-1.44) gyro=(0.99,-1.93,-1.94) sound=0.00 totalAcc=26.74
+[2026-04-11 13:34:35] [INFO ] acc=(20.91,6.46,14.43) gyro=(-0.73,3.91,1.12) sound=0.00 totalAcc=26.21
+[2026-04-11 13:34:35] [INFO ] acc=(-4.41,8.30,7.78) gyro=(-1.39,0.34,0.28) sound=0.00 totalAcc=12.21
+[2026-04-11 13:34:35] [INFO ] acc=(3.96,3.88,6.90) gyro=(0.24,1.20,0.82) sound=0.00 totalAcc=8.85
+[2026-04-11 13:34:36] [INFO ] acc=(19.25,10.30,12.31) gyro=(-1.20,2.18,1.07) sound=0.00 totalAcc=25.06
+[2026-04-11 13:34:36] [INFO ] acc=(-18.72,8.03,5.17) gyro=(1.38,-1.67,-0.27) sound=0.00 totalAcc=21.02
+[2026-04-11 13:34:36] [INFO ] acc=(16.04,6.29,9.58) gyro=(-0.67,3.90,1.48) sound=0.00 totalAcc=19.71
+[2026-04-11 13:34:36] [INFO ] acc=(-5.94,3.65,2.38) gyro=(0.45,-1.54,-1.36) sound=0.00 totalAcc=7.37
+[2026-04-11 13:34:36] [INFO ] acc=(5.67,7.02,7.31) gyro=(-0.84,-1.57,-0.93) sound=0.00 totalAcc=11.62
+[2026-04-11 13:34:36] [INFO ] acc=(-4.75,6.41,13.30) gyro=(-3.48,-1.45,-1.45) sound=0.00 totalAcc=15.52
+[2026-04-11 13:34:36] [INFO ] acc=(-6.65,3.53,24.05) gyro=(-3.45,-0.13,-1.97) sound=0.00 totalAcc=25.20
+[2026-04-11 13:34:36] [INFO ] acc=(25.17,-10.48,-13.36) gyro=(7.78,-0.24,2.78) sound=0.00 totalAcc=30.37
+[2026-04-11 13:34:36] [INFO ] acc=(-20.03,13.36,14.74) gyro=(-1.96,-0.89,-3.72) sound=0.00 totalAcc=28.23
+[2026-04-11 13:34:36] [INFO ] acc=(2.48,-2.72,-0.92) gyro=(0.22,-2.09,1.38) sound=0.00 totalAcc=3.80
+[2026-04-11 13:34:37] [INFO ] acc=(23.28,-12.65,5.92) gyro=(-0.20,-0.53,4.15) sound=0.00 totalAcc=27.15
+[2026-04-11 13:34:37] [INFO ] acc=(-25.22,18.58,12.25) gyro=(-0.63,-0.18,-4.99) sound=0.00 totalAcc=33.64
+[2026-04-11 13:34:37] [INFO ] acc=(3.50,-3.01,-0.01) gyro=(1.89,-2.38,2.05) sound=0.00 totalAcc=4.61
+[2026-04-11 13:34:37] [INFO ] acc=(7.01,-3.46,12.98) gyro=(-1.14,1.23,-1.06) sound=0.00 totalAcc=15.15
+[2026-04-11 13:34:37] [INFO ] acc=(-28.00,18.51,14.99) gyro=(-1.05,0.69,-4.90) sound=0.00 totalAcc=36.76
+[2026-04-11 13:34:37] [INFO ] acc=(15.90,-8.09,1.70) gyro=(0.83,-0.41,4.02) sound=0.00 totalAcc=17.92
+[2026-04-11 13:34:37] [INFO ] acc=(18.65,-8.96,6.77) gyro=(-0.05,0.87,0.49) sound=0.00 totalAcc=21.77
+[2026-04-11 13:34:37] [INFO ] acc=(-21.95,17.41,11.11) gyro=(-1.29,1.20,-4.98) sound=0.00 totalAcc=30.14
+[2026-04-11 13:34:37] [INFO ] acc=(12.49,-4.77,4.17) gyro=(1.44,-1.00,1.77) sound=0.00 totalAcc=14.01
+[2026-04-11 13:34:37] [INFO ] acc=(1.87,-0.48,13.38) gyro=(0.01,0.69,0.64) sound=0.00 totalAcc=13.52
+[2026-04-11 13:34:38] [INFO ] acc=(-26.17,16.99,14.13) gyro=(-1.66,0.26,-4.47) sound=0.00 totalAcc=34.25
+[2026-04-11 13:34:38] [INFO ] acc=(14.42,-5.66,1.60) gyro=(1.29,-0.47,2.98) sound=0.00 totalAcc=15.58
+[2026-04-11 13:34:38] [INFO ] acc=(21.85,-9.33,4.63) gyro=(1.12,0.57,2.45) sound=0.00 totalAcc=24.21
+[2026-04-11 13:34:38] [INFO ] acc=(-25.26,17.95,12.70) gyro=(-1.08,0.68,-4.22) sound=0.00 totalAcc=33.49
+[2026-04-11 13:34:38] [INFO ] acc=(4.51,-2.38,4.34) gyro=(1.58,-0.77,1.99) sound=0.00 totalAcc=6.69
+[2026-04-11 13:34:38] [INFO ] acc=(6.57,-2.53,8.88) gyro=(-1.08,-0.10,-0.50) sound=0.00 totalAcc=11.33
+[2026-04-11 13:34:38] [INFO ] acc=(-25.41,18.90,14.39) gyro=(-1.63,0.05,-4.23) sound=0.00 totalAcc=34.79
+[2026-04-11 13:34:38] [INFO ] acc=(13.12,-7.81,3.68) gyro=(1.49,0.42,3.65) sound=0.00 totalAcc=15.71
+[2026-04-11 13:34:38] [INFO ] acc=(18.20,-9.33,3.98) gyro=(0.62,0.72,0.86) sound=0.00 totalAcc=20.83
+[2026-04-11 13:34:38] [INFO ] acc=(-21.44,17.02,16.02) gyro=(-2.38,0.71,-4.29) sound=0.00 totalAcc=31.71
+[2026-04-11 13:34:39] [INFO ] acc=(5.97,-4.23,2.39) gyro=(1.28,-1.28,1.06) sound=0.00 totalAcc=7.70
+[2026-04-11 13:34:39] [INFO ] acc=(3.00,-0.91,10.26) gyro=(0.96,0.34,0.91) sound=0.00 totalAcc=10.73
+[2026-04-11 13:34:39] [INFO ] acc=(-25.17,19.42,18.30) gyro=(-2.87,0.81,-4.56) sound=0.00 totalAcc=36.68
+[2026-04-11 13:34:39] [INFO ] acc=(12.74,-9.10,6.57) gyro=(1.85,-0.15,3.33) sound=0.00 totalAcc=16.98
+[2026-04-11 13:34:39] [INFO ] acc=(14.63,-7.33,1.66) gyro=(1.45,-0.14,2.28) sound=0.00 totalAcc=16.44
+[2026-04-11 13:34:39] [INFO ] acc=(-20.71,17.65,15.03) gyro=(-1.18,1.06,-3.68) sound=0.00 totalAcc=31.09
+[2026-04-11 13:34:39] [INFO ] acc=(2.24,-1.24,5.78) gyro=(1.05,-0.77,2.35) sound=0.00 totalAcc=6.32
+[2026-04-11 13:34:39] [INFO ] acc=(11.81,-4.67,3.08) gyro=(0.69,-0.02,0.38) sound=0.00 totalAcc=13.06
+[2026-04-11 13:34:39] [INFO ] acc=(-26.76,18.43,17.07) gyro=(-2.33,0.10,-3.96) sound=0.00 totalAcc=36.70
+[2026-04-11 13:34:39] [INFO ] acc=(11.57,-4.66,6.17) gyro=(2.32,0.62,2.82) sound=0.00 totalAcc=13.92
+[2026-04-11 13:34:40] [INFO ] acc=(15.86,-8.26,7.53) gyro=(0.92,0.76,1.61) sound=0.00 totalAcc=19.40
+[2026-04-11 13:34:40] [INFO ] acc=(-23.28,20.97,9.18) gyro=(-1.04,-0.62,-2.95) sound=0.00 totalAcc=32.65
+[2026-04-11 13:34:40] [INFO ] acc=(4.61,-2.10,9.82) gyro=(-0.38,-1.04,0.59) sound=0.00 totalAcc=11.05
+[2026-04-11 13:34:40] [INFO ] acc=(8.49,-3.85,6.03) gyro=(0.92,0.07,2.38) sound=0.00 totalAcc=11.11
+[2026-04-11 13:34:40] [INFO ] acc=(-24.20,19.18,12.68) gyro=(-2.40,-0.07,-4.28) sound=0.00 totalAcc=33.38
+[2026-04-11 13:34:40] [INFO ] acc=(4.89,-0.24,5.41) gyro=(1.08,0.22,2.19) sound=0.00 totalAcc=7.30
+[2026-04-11 13:34:40] [INFO ] acc=(6.02,0.94,7.38) gyro=(0.50,1.64,2.36) sound=0.00 totalAcc=9.57
+[2026-04-11 13:34:40] [INFO ] acc=(0.99,6.07,8.82) gyro=(-0.40,0.48,-0.32) sound=0.00 totalAcc=10.75
+[2026-04-11 13:34:40] [INFO ] acc=(-0.10,7.07,7.56) gyro=(-0.30,-0.08,-0.20) sound=0.00 totalAcc=10.35
+[2026-04-11 13:34:40] [INFO ] acc=(0.40,5.97,8.79) gyro=(-0.02,0.14,0.17) sound=0.00 totalAcc=10.63
+[2026-04-11 13:34:41] [INFO ] acc=(1.24,5.29,7.79) gyro=(0.23,0.10,0.26) sound=0.00 totalAcc=9.50
+[2026-04-11 13:34:41] [INFO ] acc=(-8.11,11.48,12.39) gyro=(0.09,0.56,0.17) sound=0.00 totalAcc=18.74
+[2026-04-11 13:34:41] [INFO ] acc=(-3.17,3.66,9.12) gyro=(1.37,0.01,2.30) sound=0.00 totalAcc=10.32
+[2026-04-11 13:34:41] [INFO ] acc=(21.41,-12.65,-1.83) gyro=(0.98,0.69,1.95) sound=0.00 totalAcc=24.94
+[2026-04-11 13:34:41] [INFO ] acc=(-22.55,15.73,21.32) gyro=(-4.72,-1.21,-6.36) sound=0.00 totalAcc=34.79
+[2026-04-11 13:34:41] [INFO ] ♥ Heartbeat #1330 | State: EMERGENCY_STOP
+[2026-04-11 13:34:41] [WARN ] Auto-reset from EMERGENCY_STOP after timeout.
+[2026-04-11 13:34:41] [INFO ] Manual RESET — EMERGENCY_STOP → MONITORING
+[2026-04-11 13:34:41] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:41] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:41] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:41] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:41] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:41] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:42] [INFO ] acc=(-0.90,-3.72,6.54) gyro=(-0.49,-2.34,-0.35) sound=0.00 totalAcc=7.57
+[2026-04-11 13:34:42] [WARN ] WARNING threshold reached. STATE: MONITORING → WARNING  [acc=7.57 gyro=2.42 sound=0.00]
+[2026-04-11 13:34:42] [INFO ] acc=(28.04,-18.67,-1.04) gyro=(4.35,0.82,5.49) sound=0.00 totalAcc=33.70
+[2026-04-11 13:34:42] [ALERT] 🚨 EMERGENCY STOP! STATE: WARNING → EMERGENCY_STOP  [acc=33.70 gyro=7.06 sound=0.00]
+[2026-04-11 13:34:42] [ALERT] All virtual motors HALTED.
+[2026-04-11 13:34:42] [INFO ] acc=(-18.91,10.90,20.31) gyro=(-2.88,0.15,-4.61) sound=0.00 totalAcc=29.82
+[2026-04-11 13:34:42] [ALERT] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:42] [ALERT] ║  🔴 EMERGENCY STOP — ALL HALTED       ║
+[2026-04-11 13:34:42] [ALERT] ║  Motor A: KILL Motor B: KILL          ║
+[2026-04-11 13:34:42] [ALERT] ║  Motor C: KILL Motor D: KILL          ║
+[2026-04-11 13:34:42] [ALERT] ║  Pump: KILL  Valve: SEALED            ║
+[2026-04-11 13:34:42] [ALERT] ║  ⚡ SAFETY RELAY TRIGGERED            ║
+[2026-04-11 13:34:42] [ALERT] ╚══════════════════════════════════════╝
+[2026-04-11 13:34:42] [INFO ] acc=(-22.39,11.30,25.82) gyro=(-4.90,-0.60,-4.88) sound=0.00 totalAcc=35.99
+[2026-04-11 13:34:42] [INFO ] acc=(25.37,-21.65,1.36) gyro=(5.41,0.70,5.91) sound=0.00 totalAcc=33.38
+[2026-04-11 13:34:42] [INFO ] acc=(8.83,-6.63,4.42) gyro=(1.01,1.65,1.18) sound=0.00 totalAcc=11.90
+[2026-04-11 13:34:42] [INFO ] acc=(-12.61,9.69,16.99) gyro=(-2.58,-0.08,-4.73) sound=0.00 totalAcc=23.27
+[2026-04-11 13:34:42] [INFO ] acc=(1.56,4.17,5.10) gyro=(1.93,-0.36,0.72) sound=0.00 totalAcc=6.77
+[2026-04-11 13:34:42] [INFO ] acc=(4.07,2.79,7.42) gyro=(-0.05,0.36,0.69) sound=0.00 totalAcc=8.91
+[2026-04-11 13:34:42] [INFO ] acc=(1.82,4.69,9.34) gyro=(-0.23,0.51,0.01) sound=0.00 totalAcc=10.60
+[2026-04-11 13:34:42] [INFO ] acc=(0.64,5.32,9.77) gyro=(-0.03,0.14,0.00) sound=0.00 totalAcc=11.15
+[2026-04-11 13:34:42] [INFO ] acc=(1.44,4.62,8.63) gyro=(0.27,-0.09,0.15) sound=0.00 totalAcc=9.90
+[2026-04-11 13:34:42] [INFO ] acc=(1.80,4.64,7.77) gyro=(0.37,0.01,0.14) sound=0.00 totalAcc=9.23
+[2026-04-11 13:34:42] [INFO ] acc=(1.86,4.59,7.96) gyro=(0.03,-0.04,0.01) sound=0.00 totalAcc=9.38
+[2026-04-11 13:34:42] [INFO ] acc=(1.14,4.86,8.72) gyro=(-0.20,0.06,-0.08) sound=0.00 totalAcc=10.05
+[2026-04-11 13:34:43] [INFO ] acc=(1.21,4.81,8.26) gyro=(-0.04,-0.04,-0.11) sound=0.00 totalAcc=9.63
+[2026-04-11 13:34:43] [INFO ] acc=(1.14,4.89,8.18) gyro=(-0.04,0.14,-0.10) sound=0.00 totalAcc=9.60
+[2026-04-11 13:34:43] [INFO ] acc=(0.90,4.50,9.15) gyro=(-0.21,0.20,-0.02) sound=0.00 totalAcc=10.23
+[2026-04-11 13:34:43] [INFO ] acc=(-3.15,7.48,12.22) gyro=(-0.17,0.32,0.01) sound=0.00 totalAcc=14.67
+[2026-04-11 13:34:43] [INFO ] acc=(-6.02,7.23,10.17) gyro=(0.78,0.70,0.66) sound=0.00 totalAcc=13.85
+[2026-04-11 13:34:43] [INFO ] acc=(32.75,-17.32,2.12) gyro=(1.89,-0.22,3.39) sound=0.00 totalAcc=37.11
+[2026-04-11 13:34:43] [INFO ] acc=(-11.45,-5.08,24.47) gyro=(-3.61,-1.46,-5.47) sound=0.00 totalAcc=27.49
+[2026-04-11 13:34:43] [INFO ] acc=(-16.61,6.42,9.80) gyro=(0.76,-2.07,-0.51) sound=0.00 totalAcc=20.33
+[2026-04-11 13:34:43] [INFO ] acc=(18.11,-19.48,7.51) gyro=(2.18,0.32,5.69) sound=0.00 totalAcc=27.64
+[2026-04-11 13:34:43] [INFO ] acc=(-7.63,-3.44,13.06) gyro=(-3.44,-0.59,-4.56) sound=0.00 totalAcc=15.51
+[2026-04-11 13:34:44] [INFO ] acc=(-36.32,17.44,31.15) gyro=(-4.15,0.96,-6.23) sound=0.00 totalAcc=50.93
+[2026-04-11 13:34:44] [INFO ] acc=(13.21,-17.02,7.82) gyro=(4.63,-0.31,4.54) sound=0.00 totalAcc=22.92
+[2026-04-11 13:34:44] [INFO ] acc=(27.49,-14.86,-3.83) gyro=(3.16,1.45,5.01) sound=0.00 totalAcc=31.49
+[2026-04-11 13:34:44] [INFO ] acc=(-33.34,13.05,34.35) gyro=(-6.38,-1.09,-6.51) sound=0.00 totalAcc=49.61
+[2026-04-11 13:34:44] [INFO ] acc=(-10.69,0.05,9.81) gyro=(0.92,-0.68,-0.80) sound=0.00 totalAcc=14.51
+[2026-04-11 13:34:44] [INFO ] acc=(38.78,-23.31,-1.23) gyro=(2.67,1.38,5.16) sound=0.00 totalAcc=45.26
+[2026-04-11 13:34:44] [INFO ] acc=(-3.33,-10.17,10.43) gyro=(-0.97,0.55,-2.59) sound=0.00 totalAcc=14.95
+[2026-04-11 13:34:44] [INFO ] acc=(-10.86,8.22,12.77) gyro=(-0.73,0.37,-4.45) sound=0.00 totalAcc=18.67
+[2026-04-11 13:34:44] [INFO ] acc=(3.41,2.64,2.88) gyro=(2.40,-0.18,1.36) sound=0.00 totalAcc=5.18
+[2026-04-11 13:34:44] [INFO ] acc=(4.05,1.63,10.13) gyro=(-0.70,0.54,0.61) sound=0.00 totalAcc=11.03
+[2026-04-11 13:34:45] [INFO ] acc=(0.54,3.63,9.86) gyro=(-0.30,0.17,-0.15) sound=0.00 totalAcc=10.52
+[2026-04-11 13:34:45] [INFO ] acc=(0.45,3.16,8.67) gyro=(-0.12,-0.11,-0.12) sound=0.00 totalAcc=9.24
+[2026-04-11 13:34:45] [INFO ] acc=(1.16,2.39,9.47) gyro=(-0.32,0.08,0.01) sound=0.00 totalAcc=9.84
+[2026-04-11 13:34:45] [INFO ] acc=(-0.05,3.16,9.48) gyro=(-0.25,0.21,-0.04) sound=0.00 totalAcc=10.00
+[2026-04-11 13:34:45] [INFO ] acc=(0.41,2.73,9.70) gyro=(-0.20,0.07,0.12) sound=0.00 totalAcc=10.08
+[2026-04-11 13:34:45] [INFO ] acc=(0.21,2.39,9.13) gyro=(0.06,0.07,0.18) sound=0.00 totalAcc=9.44
+[2026-04-11 13:34:45] [INFO ] acc=(0.32,2.62,9.38) gyro=(0.14,0.12,0.21) sound=0.00 totalAcc=9.75
+[2026-04-11 13:34:45] [INFO ] acc=(0.73,2.76,9.68) gyro=(0.11,0.13,0.21) sound=0.00 totalAcc=10.09
+[2026-04-11 13:34:45] [INFO ] acc=(0.56,2.70,9.70) gyro=(0.07,0.03,0.18) sound=0.00 totalAcc=10.08
+[2026-04-11 13:34:46] [INFO ] acc=(0.76,3.35,8.60) gyro=(0.24,0.03,0.07) sound=0.00 totalAcc=9.26
+[2026-04-11 13:34:46] [INFO ] acc=(0.72,3.30,9.99) gyro=(0.00,-0.05,0.07) sound=0.00 totalAcc=10.55
+[2026-04-11 13:34:46] [INFO ] acc=(0.19,3.66,9.06) gyro=(0.19,-0.01,-0.01) sound=0.00 totalAcc=9.77
+[2026-04-11 13:34:46] [INFO ] acc=(0.26,3.66,9.30) gyro=(0.20,0.01,0.01) sound=0.00 totalAcc=10.00
+[2026-04-11 13:34:46] [INFO ] acc=(-0.00,3.76,8.85) gyro=(0.30,0.17,-0.06) sound=0.00 totalAcc=9.62
+[2026-04-11 13:34:46] [INFO ] acc=(0.62,3.71,9.26) gyro=(0.33,0.18,0.02) sound=0.00 totalAcc=9.99
+[2026-04-11 13:34:46] [INFO ] acc=(-0.01,4.45,8.31) gyro=(0.47,0.13,-0.27) sound=0.00 totalAcc=9.42
+[2026-04-11 13:34:46] [INFO ] acc=(-0.45,5.22,7.88) gyro=(0.29,-0.05,-0.46) sound=0.00 totalAcc=9.46
+[2026-04-11 13:34:46] [INFO ] acc=(-0.57,4.63,8.89) gyro=(-0.16,0.09,-0.04) sound=0.00 totalAcc=10.04
+[2026-04-11 13:34:46] [INFO ] acc=(-0.25,4.38,8.82) gyro=(0.02,0.10,-0.03) sound=0.00 totalAcc=9.85
+[2026-04-11 13:34:46] [INFO ] acc=(-0.52,4.62,8.71) gyro=(0.12,0.07,-0.07) sound=0.00 totalAcc=9.87
+[2026-04-11 13:34:47] [INFO ] acc=(-1.08,4.82,8.65) gyro=(-0.03,0.10,-0.09) sound=0.00 totalAcc=9.96
+[2026-04-11 13:34:47] [INFO ] acc=(-0.80,4.41,8.64) gyro=(0.05,0.03,-0.04) sound=0.00 totalAcc=9.73
+[2026-04-11 13:34:47] [INFO ] acc=(-0.74,4.43,8.95) gyro=(0.22,0.17,-0.05) sound=0.00 totalAcc=10.01
+[2026-04-11 13:34:47] [INFO ] acc=(-1.93,5.60,7.56) gyro=(0.79,0.74,-0.04) sound=0.00 totalAcc=9.60
+[2026-04-11 13:34:47] [INFO ] acc=(-2.46,6.06,7.25) gyro=(0.41,0.36,-0.07) sound=0.00 totalAcc=9.76
+[2026-04-11 13:34:47] [INFO ] acc=(-1.54,5.80,7.78) gyro=(0.12,0.13,0.02) sound=0.00 totalAcc=9.82
+[2026-04-11 13:34:47] [INFO ] acc=(-1.75,6.17,6.38) gyro=(0.19,0.23,-0.03) sound=0.00 totalAcc=9.04
+[2026-04-11 13:34:51] [INFO ] ♥ Heartbeat #1340 | State: EMERGENCY_STOP
+[2026-04-11 13:34:51] [WARN ] Auto-reset from EMERGENCY_STOP after timeout.
+[2026-04-11 13:34:51] [INFO ] Manual RESET — EMERGENCY_STOP → MONITORING
+[2026-04-11 13:34:52] [INFO ] ╔══════════════════════════════════════╗
+[2026-04-11 13:34:52] [INFO ] ║  🟢 VIRTUAL MACHINE: RUNNING          ║
+[2026-04-11 13:34:52] [INFO ] ║  Motor A: ON   Motor B: ON            ║
+[2026-04-11 13:34:52] [INFO ] ║  Motor C: ON   Motor D: ON            ║
+[2026-04-11 13:34:52] [INFO ] ║  Pump: ON   Valve: OPEN               ║
+[2026-04-11 13:34:52] [INFO ] ╚══════════════════════════════════════╝
+[2026-04-11 13:35:02] [INFO ] ♥ Heartbeat #1350 | State: MONITORING
+[2026-04-11 13:35:12] [INFO ] ♥ Heartbeat #1360 | State: MONITORING
+[2026-04-11 13:35:22] [INFO ] ♥ Heartbeat #1370 | State: MONITORING
+[2026-04-11 13:35:32] [INFO ] ♥ Heartbeat #1380 | State: MONITORING
+[2026-04-11 13:35:42] [INFO ] ♥ Heartbeat #1390 | State: MONITORING
+[2026-04-11 13:35:52] [INFO ] ♥ Heartbeat #1400 | State: MONITORING
+[2026-04-11 13:36:02] [INFO ] ♥ Heartbeat #1410 | State: MONITORING
+[2026-04-11 13:36:12] [INFO ] ♥ Heartbeat #1420 | State: MONITORING
+[2026-04-11 13:36:22] [INFO ] ♥ Heartbeat #1430 | State: MONITORING
+[2026-04-11 13:36:32] [INFO ] ♥ Heartbeat #1440 | State: MONITORING
+[2026-04-11 13:36:42] [INFO ] ♥ Heartbeat #1450 | State: MONITORING
+[2026-04-11 13:36:52] [INFO ] ♥ Heartbeat #1460 | State: MONITORING
+[2026-04-11 13:37:02] [INFO ] ♥ Heartbeat #1470 | State: MONITORING
+[2026-04-11 13:37:12] [INFO ] ♥ Heartbeat #1480 | State: MONITORING
+[2026-04-11 13:37:22] [INFO ] ♥ Heartbeat #1490 | State: MONITORING
+[2026-04-11 13:37:26] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 13:37:26] [INFO ] Waiting for phone connection...
+[2026-04-11 13:37:32] [INFO ] ♥ Heartbeat #1500 | State: MONITORING
+[2026-04-11 13:37:42] [INFO ] ♥ Heartbeat #1510 | State: MONITORING
+[2026-04-11 13:37:52] [INFO ] ♥ Heartbeat #1520 | State: MONITORING
+[2026-04-11 13:38:02] [INFO ] ♥ Heartbeat #1530 | State: MONITORING
+[2026-04-11 13:38:12] [INFO ] ♥ Heartbeat #1540 | State: MONITORING
+[2026-04-11 13:38:22] [INFO ] ♥ Heartbeat #1550 | State: MONITORING
+[2026-04-11 13:38:32] [INFO ] ♥ Heartbeat #1560 | State: MONITORING
+[2026-04-11 13:38:42] [INFO ] ♥ Heartbeat #1570 | State: MONITORING
+[2026-04-11 13:38:52] [INFO ] ♥ Heartbeat #1580 | State: MONITORING
+[2026-04-11 13:39:02] [INFO ] ♥ Heartbeat #1590 | State: MONITORING
+[2026-04-11 13:39:12] [INFO ] ♥ Heartbeat #1600 | State: MONITORING
+[2026-04-11 13:39:23] [INFO ] ♥ Heartbeat #1610 | State: MONITORING
+[2026-04-11 13:39:33] [INFO ] ♥ Heartbeat #1620 | State: MONITORING
+[2026-04-11 13:39:43] [INFO ] ♥ Heartbeat #1630 | State: MONITORING
+[2026-04-11 13:39:53] [INFO ] ♥ Heartbeat #1640 | State: MONITORING
+[2026-04-11 13:40:03] [INFO ] ♥ Heartbeat #1650 | State: MONITORING
+[2026-04-11 13:40:13] [INFO ] ♥ Heartbeat #1660 | State: MONITORING
+[2026-04-11 13:40:23] [INFO ] ♥ Heartbeat #1670 | State: MONITORING
+[2026-04-11 13:40:33] [INFO ] ♥ Heartbeat #1680 | State: MONITORING
+[2026-04-11 13:40:43] [INFO ] ♥ Heartbeat #1690 | State: MONITORING
+[2026-04-11 13:40:53] [INFO ] ♥ Heartbeat #1700 | State: MONITORING
+[2026-04-11 13:41:03] [INFO ] ♥ Heartbeat #1710 | State: MONITORING
+[2026-04-11 13:41:13] [INFO ] ♥ Heartbeat #1720 | State: MONITORING
+[2026-04-11 13:41:13] [INFO ] Phone connected from: 192.168.1.23
+[2026-04-11 13:41:23] [INFO ] ♥ Heartbeat #1730 | State: MONITORING
+[2026-04-11 13:41:33] [INFO ] ♥ Heartbeat #1740 | State: MONITORING
+[2026-04-11 13:41:43] [INFO ] ♥ Heartbeat #1750 | State: MONITORING
+[2026-04-11 13:41:53] [INFO ] ♥ Heartbeat #1760 | State: MONITORING
+[2026-04-11 13:42:03] [INFO ] ♥ Heartbeat #1770 | State: MONITORING
+[2026-04-11 13:42:13] [INFO ] ♥ Heartbeat #1780 | State: MONITORING
+[2026-04-11 13:42:23] [INFO ] ♥ Heartbeat #1790 | State: MONITORING
+[2026-04-11 13:42:33] [INFO ] ♥ Heartbeat #1800 | State: MONITORING
+[2026-04-11 13:42:43] [INFO ] ♥ Heartbeat #1810 | State: MONITORING
+[2026-04-11 13:42:53] [INFO ] ♥ Heartbeat #1820 | State: MONITORING
+[2026-04-11 13:42:58] [WARN ] Phone disconnected. Waiting for reconnect...
+[2026-04-11 13:42:58] [INFO ] Waiting for phone connection...
+[2026-04-11 13:43:03] [INFO ] ♥ Heartbeat #1830 | State: MONITORING
+[2026-04-11 13:43:13] [INFO ] ♥ Heartbeat #1840 | State: MONITORING
+[2026-04-11 13:43:23] [INFO ] ♥ Heartbeat #1850 | State: MONITORING
+[2026-04-11 13:43:33] [INFO ] ♥ Heartbeat #1860 | State: MONITORING
+[2026-04-11 13:43:43] [INFO ] ♥ Heartbeat #1870 | State: MONITORING
+[2026-04-11 13:43:54] [INFO ] ♥ Heartbeat #1880 | State: MONITORING
+[2026-04-11 13:44:04] [INFO ] ♥ Heartbeat #1890 | State: MONITORING
+[2026-04-11 13:44:14] [INFO ] ♥ Heartbeat #1900 | State: MONITORING
+[2026-04-11 13:44:24] [INFO ] ♥ Heartbeat #1910 | State: MONITORING
+[2026-04-11 13:44:34] [INFO ] ♥ Heartbeat #1920 | State: MONITORING
+[2026-04-11 13:44:44] [INFO ] ♥ Heartbeat #1930 | State: MONITORING
+[2026-04-11 13:44:54] [INFO ] ♥ Heartbeat #1940 | State: MONITORING
+[2026-04-11 13:45:04] [INFO ] ♥ Heartbeat #1950 | State: MONITORING
+[2026-04-11 13:45:14] [INFO ] ♥ Heartbeat #1960 | State: MONITORING
+[2026-04-11 13:45:24] [INFO ] ♥ Heartbeat #1970 | State: MONITORING
+[2026-04-11 13:45:34] [INFO ] ♥ Heartbeat #1980 | State: MONITORING
+[2026-04-11 13:45:44] [INFO ] ♥ Heartbeat #1990 | State: MONITORING
+[2026-04-11 13:45:54] [INFO ] ♥ Heartbeat #2000 | State: MONITORING
+[2026-04-11 13:46:04] [INFO ] ♥ Heartbeat #2010 | State: MONITORING
+[2026-04-11 13:46:14] [INFO ] ♥ Heartbeat #2020 | State: MONITORING
+[2026-04-11 13:46:24] [INFO ] ♥ Heartbeat #2030 | State: MONITORING
+[2026-04-11 13:46:34] [INFO ] ♥ Heartbeat #2040 | State: MONITORING
+[2026-04-11 13:46:44] [INFO ] ♥ Heartbeat #2050 | State: MONITORING
+[2026-04-11 13:46:54] [INFO ] ♥ Heartbeat #2060 | State: MONITORING
+[2026-04-11 13:47:04] [INFO ] ♥ Heartbeat #2070 | State: MONITORING
+[2026-04-11 13:47:14] [INFO ] ♥ Heartbeat #2080 | State: MONITORING
+[2026-04-11 13:47:24] [INFO ] ♥ Heartbeat #2090 | State: MONITORING
+[2026-04-11 13:47:34] [INFO ] ♥ Heartbeat #2100 | State: MONITORING
+[2026-04-11 13:47:44] [INFO ] ♥ Heartbeat #2110 | State: MONITORING
+[2026-04-11 13:47:54] [INFO ] ♥ Heartbeat #2120 | State: MONITORING
+[2026-04-11 13:48:04] [INFO ] ♥ Heartbeat #2130 | State: MONITORING
+[2026-04-11 13:48:14] [INFO ] ♥ Heartbeat #2140 | State: MONITORING
+[2026-04-11 13:48:24] [INFO ] ♥ Heartbeat #2150 | State: MONITORING
+[2026-04-11 13:48:35] [INFO ] ♥ Heartbeat #2160 | State: MONITORING
+[2026-04-11 13:48:45] [INFO ] ♥ Heartbeat #2170 | State: MONITORING
+[2026-04-11 13:48:55] [INFO ] ♥ Heartbeat #2180 | State: MONITORING
+[2026-04-11 13:49:05] [INFO ] ♥ Heartbeat #2190 | State: MONITORING
+[2026-04-11 13:49:15] [INFO ] ♥ Heartbeat #2200 | State: MONITORING
+[2026-04-11 13:49:25] [INFO ] ♥ Heartbeat #2210 | State: MONITORING
+[2026-04-11 13:49:35] [INFO ] ♥ Heartbeat #2220 | State: MONITORING
